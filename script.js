@@ -1,3 +1,4 @@
-import { perguntas } from './perguntas.js';
+import { questions } from './perguntas.js';
 
-perguntas()
+
+questions()

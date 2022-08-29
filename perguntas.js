@@ -1,6 +1,13 @@
-export function perguntas(){
+export function questions(){
+    document.querySelector("main").innerHTML=`
+        <label></label>
+        <div id="inputs">
+
+        </div>
+    `
     const array = [
         {
+            id: 1,
             title: "Questão de fato histórico.",
             text: "Quem descobriu o Brasil?",
             alt: [
@@ -22,23 +29,24 @@ export function perguntas(){
             ]
         },
         {
+            id: 2,
             title: "Questão de lógica",
             text: "Quanto é dois mais dois dividido por dois?",
             alt: [
                 {
                     quote: "A",
-                    text: "2",
+                    text: "1",
                     value: false
                 },
                 {
                     quote: "B",
-                    text: "4",
-                    value: false
+                    text: "3",
+                    value: true
                 },
                 {
                     quote: "C",
-                    text: "3",
-                    value: true
+                    text: "4",
+                    value: false
                 }
             ]
         }
@@ -53,6 +61,30 @@ export function perguntas(){
         console.log(`
             (${element.quote}) ${element.text}
         `)
+        
+        const inputs = document.querySelector("#inputs")
+        const div = document.createElement("div")
+        div.innerHTML=`
+            <button id="A${element.quote}">${element.text}</button>
+        `
+        inputs.appendChild(div)
+        document.querySelector(`#A${element.quote}`).addEventListener("click",()=>{
+            document.querySelector(`#A${element.quote}`).disabled
+            if(element.value==true){
+                let time = 3
+                for (let t = 0; t <= time; t++) {
+                    setTimeout(()=>{
+                        document.querySelector("h1").innerText="Você acertou! próxima pergunta em: "+((time)-t)
+                        if(t==(time-1)){
+                            questions()
+                        }
+                    },1000*t)
+                }
+            }else{
+                console.log("Errou")
+            }
+        })
+        
     }
     let myAwnser = array[random].alt[2]
     console.log(`Você escolheu a alternativa: ${myAwnser.quote}`)
@@ -61,4 +93,6 @@ export function perguntas(){
     }else{
         console.log("Resultado: Correto!")
     }
+    array.splice(random,1)
 }
+
