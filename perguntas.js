@@ -33,10 +33,11 @@ export function perguntas(){
             (${element.quote}) ${element.text}
         `)
     }
-    let myAwnser = array[random].alt[1]
+    let myAwnser = array[random].alt[2]
     console.log(`Você escolheu a alternativa: ${myAwnser.quote}`)
     if(myAwnser.value==false){
-        
         console.log("Você errou!")
+    }else{
+        console.log("Você acertou!")
     }
 }
