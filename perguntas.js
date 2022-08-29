@@ -57,8 +57,8 @@ export function perguntas(){
     let myAwnser = array[random].alt[2]
     console.log(`Você escolheu a alternativa: ${myAwnser.quote}`)
     if(myAwnser.value==false){
-        console.log("Resultado: Correto!")
-    }else{
         console.log("Resultado: Errado!")
+    }else{
+        console.log("Resultado: Correto!")
     }
 }
