@@ -20,6 +20,27 @@ export function perguntas(){
                     value: true
                 }
             ]
+        },
+        {
+            title: "Questão de lógica",
+            text: "Quanto é dois mais dois dividido por dois?",
+            alt: [
+                {
+                    quote: "A",
+                    text: "2",
+                    value: false
+                },
+                {
+                    quote: "B",
+                    text: "4",
+                    value: false
+                },
+                {
+                    quote: "C",
+                    text: "3",
+                    value: true
+                }
+            ]
         }
     ]
     let random = Math.floor(Math.random()*array.length)
@@ -36,8 +57,8 @@ export function perguntas(){
     let myAwnser = array[random].alt[2]
     console.log(`Você escolheu a alternativa: ${myAwnser.quote}`)
     if(myAwnser.value==false){
-        console.log("Você errou!")
+        console.log("Resultado: Correto!")
     }else{
-        console.log("Você acertou!")
+        console.log("Resultado: Errado!")
     }
 }
