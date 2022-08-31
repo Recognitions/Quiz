@@ -40,6 +40,27 @@ export const array = [
                 value: false
             }
         ]
+    },
+    {
+        title: "Pergunta sobre o Matheus",
+        text: "É verdade que o Matheus é gay?",
+        alt: [
+            {
+                quote: "A",
+                text: "Sim",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Não",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Talvez",
+                value: false
+            }
+        ]
     }
     
 ]
