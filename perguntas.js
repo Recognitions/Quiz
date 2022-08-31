@@ -43,7 +43,7 @@ export const array = [
     },
     {
         title: "Pergunta sobre o Matheus",
-        text: "É verdade que o Matheus é gay?",
+        text: "É verdade que o Matheus é vegano?",
         alt: [
             {
                 quote: "A",
