@@ -42,23 +42,23 @@ export const array = [
         ]
     },
     {
-        title: "Pergunta sobre o Matheus",
-        text: "É verdade que o Matheus é vegano?",
+        title: "Questão de lógica",
+        text: "Qual o próximo número da sequência {1, 3, 5, 7,...}",
         alt: [
             {
                 quote: "A",
-                text: "Sim",
-                value: true
+                text: "10",
+                value: false
             },
             {
                 quote: "B",
-                text: "Não",
+                text: "8",
                 value: false
             },
             {
                 quote: "C",
-                text: "Talvez",
-                value: false
+                text: "9",
+                value: true
             }
         ]
     }
