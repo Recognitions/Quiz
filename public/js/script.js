@@ -29,6 +29,10 @@ function setScore(nick){
     const player = players ? JSON.parse(players) : []
     localStorage.setItem("players",JSON.stringify([...player,newPlayer]))
 }
+function playSound(url){
+    const audio = new Audio(`public/sound/${url}.mp3`)
+    audio.play()
+}
 
 let points = 1
 function questions(){
@@ -53,8 +57,7 @@ function questions(){
                     clear()
                     questions()
                     points+=1
-                    const audio = new Audio("public/sound/success.mp3")
-                    audio.play()
+                    playSound("point")
                 }else{
                     clear()
                     lose()
@@ -66,8 +69,7 @@ function questions(){
     }else{
         win()
         setScore(name)
-        const audio = new Audio("public/sound/win.mp3")
-        audio.play()
+        playSound("win")
     }
     document.getElementById("reset").addEventListener("click",()=>{
         document.location.href="./"
