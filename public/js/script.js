@@ -1,16 +1,6 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 import { array } from './perguntas.js';
 
-
-function load(file){
-    const http = new XMLHttpRequest();
-    http.onload = ()=>{
-        document.querySelector("body").innerHTML = http.responseText
-    }
-    http.open("GET", `public/pages/${file}.html`, true);
-    http.send()
-}
-
 function clear(){
     document.querySelector("main").innerHTML=`
     <h1></h1>
@@ -88,20 +78,3 @@ document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
     questions()
 })
-
-// setTimeout(()=>{
-//     document.getElementById("create").addEventListener("submit",(e)=>{
-//         e.preventDefault()
-//         const name = document.getElementById("name")
-//         const newPlayer = {
-//             id:uuidv4(),
-//             name:name.value,
-//             points:0
-//         }
-//         load("questions")
-//         questions()
-//         //const players = localStorage.getItem("players")
-//         //const player = players ? JSON.parse(players) : []
-//         //localStorage.setItem("players",JSON.stringify([...player,newPlayer]))
-//     })
-// },1000)
