@@ -8,29 +8,38 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
+    <div class="register modal active">
+        <form id="create">
+            <input type="text" placeholder="Seu nome" id="name">
+            <input type="submit">
+        </form>
+    </div>
+    <div>
+
+    </div>
     <header>
         <h1></h1>
     </header>
     <main>
-        <h1>dsa</h1>
-        <label>asd</label>
+        <h1></h1>
+        <label></label>
         <div id="inputs">
         </div>
     </main>
-    <section id="lose">
+    <section id="lose" class="modal">
         <div class="losediv">
             <div class="img"></div>
             <h2>Você perdeu!</h2>
         </div>
         <button id="reset">Novo Jogo</button>
     </section>
-    <section id="win">
+    <section id="win" class="modal">
         <div class="losediv">
             <div class="img"></div>
             <h2>Você ganhou!</h2>
         </div>
         <button id="new">Novo Jogo</button>
     </section>
-    <script type="module" src="public/js/script.js"></script>
 </body>
 </html>
+<script type="module" src="public/js/script.js"></script>
