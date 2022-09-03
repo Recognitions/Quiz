@@ -41,7 +41,6 @@ function questions(){
         mainTitle.innerHTML=array[random].title
         const mainLabel = document.querySelector(`main label`)
         mainLabel.innerHTML=array[random].text
-
         for (let index = 0; index < array[random].alt.length; index++) {
             const element = array[random].alt[index];
             const inputs = document.querySelector("#inputs")
@@ -72,7 +71,6 @@ function questions(){
     document.getElementById("new").addEventListener("click",()=>{
         document.location.href="./"
     })
-    console.log(points)
 }
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
