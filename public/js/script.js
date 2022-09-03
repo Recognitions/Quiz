@@ -53,6 +53,8 @@ function questions(){
                     clear()
                     questions()
                     points+=1
+                    const audio = new Audio("public/sound/success.mp3")
+                    audio.play()
                 }else{
                     clear()
                     lose()
@@ -64,6 +66,8 @@ function questions(){
     }else{
         win()
         setScore(name)
+        const audio = new Audio("public/sound/win.mp3")
+        audio.play()
     }
     document.getElementById("reset").addEventListener("click",()=>{
         document.location.href="./"
@@ -76,3 +80,4 @@ document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
     questions()
 })
+
