@@ -1,5 +1,6 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
-import { array } from './perguntas.js';
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
+import { array } from './perguntas.js'
+import { openModal,closeModal } from './modal.js'
 
 function clear(){
     document.querySelector("main").innerHTML=`
@@ -9,14 +10,6 @@ function clear(){
 
         </div>
     `
-}
-function openModal(m){
-    const modal = document.getElementById(m)
-    modal.classList.add("active")
-}
-function closeModal(m){
-    const modal = document.getElementById(m)
-    modal.classList.remove("active")
 }
 
 function setScore(nick){
