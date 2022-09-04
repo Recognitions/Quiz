@@ -131,6 +131,18 @@ main{
     background-color: #00b7c2;
     color: rgb(229, 229, 229);
 }
+#ranking h1{
+    margin: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+}
+#ranking h1 b{
+    position: absolute;
+    margin-left: -26px;
+    margin-top: -25px;
+    transform: rotateZ(30deg);
+    text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
+}
 #showPlayers{
     width: 100%;
     display: flex;
