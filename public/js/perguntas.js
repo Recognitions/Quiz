@@ -44,12 +44,12 @@ export const array = [
                 text: "Governador",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Deputado Estadual",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "Presidente da República",
                 value: true
@@ -113,7 +113,7 @@ export const array = [
             }
         ]
     },
-  {
+    {
         title: "Questão de Conhecimentos Gerais",
         text: "Se você for a um empório, estará indo em um...",
         alt: [

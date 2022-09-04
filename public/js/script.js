@@ -14,6 +14,10 @@ function openModal(m){
     const modal = document.getElementById(m)
     modal.classList.add("active")
 }
+function closeModal(m){
+    const modal = document.getElementById(m)
+    modal.classList.remove("active")
+}
 
 function setScore(nick){
     const newPlayer = {
@@ -28,6 +32,26 @@ function setScore(nick){
 function playSound(url){
     const audio = new Audio(`public/sound/${url}.mp3`)
     audio.play()
+}
+
+function ranking(){
+    const showPlayers = document.getElementById("showPlayers")
+    showPlayers.innerHTML=""
+    const players = JSON.parse(localStorage.getItem("players"))
+    const rankingArray = players.sort((a,b)=>{return b.points - a.points})
+    for(let i=0; i<10;i++){
+        const div = document.createElement("div")
+        div.classList.add("topPlayer")
+        div.innerHTML=`
+            <div>${rankingArray[i].name}</div>
+            <div title="Pontos">${rankingArray[i].points}🪙</div>
+            
+        `
+        showPlayers.appendChild(div)
+    }
+    document.getElementById("ranking").addEventListener("click",()=>{
+        closeModal("ranking")
+    })
 }
 
 let points = 1
@@ -63,7 +87,7 @@ function questions(){
         }
         array.splice(random,1)
     }else{
-        win()
+        openModal("win")
         setScore(name)
         playSound("win")
     }
@@ -78,4 +102,9 @@ function questions(){
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
     questions()
+})
+
+document.querySelector("#openRank").addEventListener("click",()=>{
+    openModal("ranking")
+    ranking()
 })
