@@ -43,16 +43,15 @@ function ranking(){
         showPlayers.appendChild(div)
     }
     document.getElementById("ranking").addEventListener("click",()=>{
-        closeModal("ranking")
+        closeModal("#ranking")
     })
 }
 
 let points = 1
 function questions(){
     const name = document.getElementById("name").value
-    document.querySelector("main").style.visibility="visible"
-    document.querySelector("main").style.opacity="1"
-    document.querySelector(".register").style.visibility="hidden"
+    openModal("main")
+    closeModal(".register")
     if(array.length>0){
         let random = Math.floor(Math.random()*array.length)
         const mainTitle = document.querySelector(`main h1`)
@@ -74,14 +73,14 @@ function questions(){
                     playSound("point")
                 }else{
                     clear()
-                    openModal("lose")
+                    openModal("#lose")
                     setScore(name)
                 }
             })
         }
         array.splice(random,1)
     }else{
-        openModal("win")
+        openModal("#win")
         setScore(name)
         playSound("win")
     }
@@ -99,6 +98,6 @@ document.getElementById("create").addEventListener("submit",(e)=>{
 })
 
 document.querySelector("#openRank").addEventListener("click",()=>{
-    openModal("ranking")
+    openModal("#ranking")
     ranking()
 })
