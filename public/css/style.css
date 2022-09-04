@@ -16,6 +16,8 @@ main{
     align-items: center;
     justify-content: space-around;
     visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s;
 }
 #inputs{
     display: flex;
@@ -127,7 +129,7 @@ main{
 }
 #ranking{
     background-color: #00b7c2;
-    color: white;
+    color: rgb(229, 229, 229);
 }
 #showPlayers{
     width: 100%;
@@ -144,6 +146,11 @@ main{
     justify-content: space-between;
     font-size: 18px;
     text-transform: uppercase;
+    transition: 0.2s;
+}
+.topPlayer:hover{
+    font-size: 20px;
+    text-shadow: 0px 0px 3px white;
 }
 .topPlayer:first-child{
     color: gold;

@@ -51,6 +51,7 @@ let points = 1
 function questions(){
     const name = document.getElementById("name").value
     document.querySelector("main").style.visibility="visible"
+    document.querySelector("main").style.opacity="1"
     document.querySelector(".register").style.visibility="hidden"
     if(array.length>0){
         let random = Math.floor(Math.random()*array.length)
