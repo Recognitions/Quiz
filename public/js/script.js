@@ -3,20 +3,16 @@ import { array } from './perguntas.js';
 
 function clear(){
     document.querySelector("main").innerHTML=`
-    <h1></h1>
-    <label></label>
-    <div id="inputs">
+        <h1></h1>
+        <label></label>
+        <div id="inputs">
 
-    </div>
+        </div>
     `
 }
-function lose(){
-    const lose = document.getElementById("lose")
-    lose.classList.add("active")
-}
-function win(){
-    const win = document.getElementById("win")
-    win.classList.add("active")
+function openModal(m){
+    const modal = document.getElementById(m)
+    modal.classList.add("active")
 }
 
 function setScore(nick){
@@ -60,7 +56,7 @@ function questions(){
                     playSound("point")
                 }else{
                     clear()
-                    lose()
+                    openModal("lose")
                     setScore(name)
                 }
             })
@@ -78,8 +74,8 @@ function questions(){
         document.location.href="./"
     })
 }
+
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
     questions()
 })
-
