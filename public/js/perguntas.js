@@ -144,5 +144,160 @@ export const array = [
             }
         ]
     },
+    {
+        title: "Questão de Geografia",
+        text: "Quais o menor e o maior país do mundo?",
+        alt: [
+            {
+                quote: "A",
+                text: "Vaticano e Rússia",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Nauru e China",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Mônaco e Canadá",
+                value: false
+            },
+          {
+                quote: "D",
+                text: "Malta e Estados Unidos",
+                value: false
+            },
+          {
+                quote: "E",
+                text: "São Marino e Índia",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Literatura",
+        text: "Quais os principais autores do Barroco no Brasil?",
+        alt: [
+            {
+                quote: "A",
+                text: "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
+                value: false
+            },
+          {
+                quote: "D",
+                text: "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
+                value: false
+            },
+          {
+                quote: "E",
+                text: "Álvares de Azevedo, Gregório de Matos e Bento Teixeira",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Espanhol",
+        text: "Qual a tradução da frase “Fabiano cogió su saco antes de salir”?",
+        alt: [
+            {
+                quote: "A",
+                text: "Fabiano coseu seu paletó antes de sair",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Fabiano fechou o saco antes de sair",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Fabiano pegou seu paletó antes de sair",
+                value: true
+            },
+          {
+                quote: "D",
+                text: "Fabiano cortou o saco antes de cair",
+                value: false
+            },
+          {
+                quote: "E",
+                text: "Fabiano rasgou seu paletó antes de cair",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Conhecimentos Gerais",
+        text: "Quais os planetas do sistema solar?",
+        alt: [
+            {
+                quote: "A",
+                text: "Terra, Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Terra, Urano, Vênus",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio",
+                value: false
+            },
+          {
+                quote: "D",
+                text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Sol, Terra, Urano, Vênus",
+                value: false
+            },
+          {
+                quote: "E",
+                text: "Terra, Vênus, Saturno, Júpiter, Marte, Netuno, Mercúrio",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Literatura",
+        text: "Quais os principais heterônimos de Fernando Pessoa?",
+        alt: [
+            {
+                quote: "A",
+                text: "Alberto Caeiro, Ricardo Reis e Álvaro de Campos",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Ariano Suassuna, Raul Bopp e Quincas Borba",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Bento Teixeira, Ricardo Reis e Haroldo de Campos",
+                value: false
+            },
+          {
+                quote: "D",
+                text: "Alberto Caeiro, Ricardo Leite e Augusto de Campos",
+                value: false
+            },
+          {
+                quote: "E",
+                text: "Bento Teixeira, Ricardo Reis e Augusto de Campos",
+                value: false
+            }
+        ]
+    },
     
 ]
