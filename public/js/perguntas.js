@@ -18,7 +18,7 @@ export const array = [
                 text: "30 minutos",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "100 minutos",
                 value: false
@@ -75,12 +75,12 @@ export const array = [
                 text: "São Luís",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Vitória",
                 value: true
             },
-                  {
+            {
                 quote: "E",
                 text: "Maceió",
                 value: false
@@ -132,12 +132,12 @@ export const array = [
                 text: "estabelecimento comercial que vende vários tipos de mercadorias",
                 value: true
             },
-          {
+            {
                 quote: "D",
                 text: "terreno arborizado, destinado à recreação",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "passeio de estudo ou de observação",
                 value: false
@@ -163,12 +163,12 @@ export const array = [
                 text: "Mônaco e Canadá",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Malta e Estados Unidos",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "São Marino e Índia",
                 value: false
@@ -194,12 +194,12 @@ export const array = [
                 text: "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "Álvares de Azevedo, Gregório de Matos e Bento Teixeira",
                 value: false
@@ -225,12 +225,12 @@ export const array = [
                 text: "Fabiano pegou seu paletó antes de sair",
                 value: true
             },
-          {
+            {
                 quote: "D",
                 text: "Fabiano cortou o saco antes de cair",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "Fabiano rasgou seu paletó antes de cair",
                 value: false
@@ -256,12 +256,12 @@ export const array = [
                 text: "Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Sol, Terra, Urano, Vênus",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "Terra, Vênus, Saturno, Júpiter, Marte, Netuno, Mercúrio",
                 value: false
@@ -287,17 +287,78 @@ export const array = [
                 text: "Bento Teixeira, Ricardo Reis e Haroldo de Campos",
                 value: false
             },
-          {
+            {
                 quote: "D",
                 text: "Alberto Caeiro, Ricardo Leite e Augusto de Campos",
                 value: false
             },
-          {
+            {
                 quote: "E",
                 text: "Bento Teixeira, Ricardo Reis e Augusto de Campos",
                 value: false
             }
         ]
     },
-    
+    {
+        title: "Questão de Conhecimentos Gerais",
+        text: "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
+        alt: [
+            {
+                quote: "A",
+                text: "Tem entre 2 a 4 litros. São retirados 450 mililitros",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Tem entre 4 a 6 litros. São retirados 450 mililitros",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "Tem 10 litros. São retirados 2 litros",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "Tem 7 litros. São retirados 1,5 litros",
+                value: false
+            },
+            {
+                quote: "E",
+                text: "Tem 0,5 litros. São retirados 0,5 litros",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de conhecimentos gerais",
+        text: "De onde é a invenção do chuveiro elétrico?",
+        alt: [
+            {
+                quote: "A",
+                text: "França",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Inglaterra",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Brasil",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "Austrália",
+                value: false
+            },
+            {
+                quote: "E",
+                text: "Itália",
+                value: false
+            }
+        ]
+    }
 ]
