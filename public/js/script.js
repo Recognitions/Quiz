@@ -48,6 +48,14 @@ function ranking(){
     })
 }
 
+function checkInput(k){
+    if(k=="click"){
+
+    }else if(k=="keyup"){
+
+    }
+}
+
 let points = 1
 function questions(){
     const name = document.getElementById("name").value
