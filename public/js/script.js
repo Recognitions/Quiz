@@ -77,6 +77,19 @@ function questions(){
                     setScore(name)
                 }
             })
+            document.addEventListener("keypress",(e)=>{
+                const key = (e.key).toUpperCase()
+                if(key==element.quote && element.value==true){
+                    clear()
+                    questions()
+                    points+=1
+                    playSound("point")
+                }else if(key==element.quote && element.value==false){
+                    clear()
+                    openModal("#lose")
+                    setScore(name)
+                }
+            })
         }
         array.splice(random,1)
     }else{
