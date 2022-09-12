@@ -110,17 +110,25 @@ function questions(){
     })
 }
 
+let canCreate = false
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
+
     const name = (document.getElementById("name").value).toUpperCase()
     filter.forEach((e)=>{
         if(name.includes(e.toUpperCase())){
             alert("Você não pode usar esse nome!")
-            document.location.href=""
+            window.location.href=""
         }else{
-            questions()
+            canCreate=true 
         }  
     })
+
+    if(canCreate==true){
+        canCreate=false
+        questions()
+    }
+
 })
 
 document.querySelector("#openRank").addEventListener("click",()=>{
