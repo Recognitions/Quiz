@@ -77,8 +77,9 @@ function questions(){
                     setScore(name)
                 }
             })
-            document.addEventListener("keypress",(e)=>{
+            document.addEventListener("keydown",(e)=>{
                 const key = (e.key).toUpperCase()
+                document.querySelector(`#A${key}`).disabled
                 if(key==element.quote && element.value==true){
                     clear()
                     questions()
