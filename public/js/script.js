@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 import { array } from './perguntas.js'
 import { openModal,closeModal } from './modal.js'
+import { filter } from './filter.js'
 
 function clear(){
     document.querySelector("main").innerHTML=`
@@ -79,7 +80,7 @@ function questions(){
                     setScore(name)
                 }
             })
-            document.addEventListener("keydown",(e)=>{
+            document.addEventListener("keyup",(e)=>{
                 const key = (e.key).toUpperCase()
                 if(camp.id=="CAMP"+random){
                     if(key==element.quote && element.value==true){
@@ -111,10 +112,14 @@ function questions(){
 
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
-    if(document.getElementById("name").value!=""){
-        questions()
-
-    }
+    const name = (document.getElementById("name").value).toUpperCase()
+    filter.forEach((e)=>{
+        if(name!="" && name.includes(e.toUpperCase())){
+            alert("Você não pode usar esse nome!")
+        }else{
+            questions()
+        }  
+    })
 })
 
 document.querySelector("#openRank").addEventListener("click",()=>{
