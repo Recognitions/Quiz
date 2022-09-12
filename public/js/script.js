@@ -58,6 +58,8 @@ function questions(){
         mainTitle.innerHTML=array[random].title
         const mainLabel = document.querySelector(`main label`)
         mainLabel.innerHTML=array[random].text
+        const camp = document.querySelector(".camp")
+        camp.id="CAMP"+random
         for (let index = 0; index < array[random].alt.length; index++) {
             const element = array[random].alt[index];
             const inputs = document.querySelector("#inputs")
@@ -79,16 +81,20 @@ function questions(){
             })
             document.addEventListener("keydown",(e)=>{
                 const key = (e.key).toUpperCase()
-                if(key==element.quote && element.value==true){
-                    clear()
-                    questions()
-                    points+=1
-                    playSound("point")
-                }else if(key==element.quote && element.value==false){
-                    clear()
-                    openModal("#lose")
-                    setScore(name)
+
+                if(camp.id=="CAMP"+random){
+                    if(key==element.quote && element.value==true){
+                        clear()
+                        questions()
+                        points+=1
+                        playSound("point")
+                    }else if(key==element.quote && element.value==false){
+                        clear()
+                        openModal("#lose")
+                        setScore(name)
+                    }
                 }
+
             })
         }
         array.splice(random,1)
@@ -107,7 +113,10 @@ function questions(){
 
 document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
-    questions()
+    if(document.getElementById("name").value!=""){
+        questions()
+
+    }
 })
 
 document.querySelector("#openRank").addEventListener("click",()=>{
