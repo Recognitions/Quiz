@@ -1,3 +1,9 @@
 export const filter = [
-    "oi"
+    "safad",
+    "retardad",
+    "cu",
+    "put",
+    "hitl",
+    "nazi",
+    "nigg"
 ]

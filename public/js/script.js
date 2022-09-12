@@ -114,8 +114,9 @@ document.getElementById("create").addEventListener("submit",(e)=>{
     e.preventDefault()
     const name = (document.getElementById("name").value).toUpperCase()
     filter.forEach((e)=>{
-        if(name!="" && name.includes(e.toUpperCase())){
+        if(name.includes(e.toUpperCase())){
             alert("Você não pode usar esse nome!")
+            document.location.href=""
         }else{
             questions()
         }  
