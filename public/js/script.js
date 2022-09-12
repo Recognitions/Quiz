@@ -81,7 +81,6 @@ function questions(){
             })
             document.addEventListener("keydown",(e)=>{
                 const key = (e.key).toUpperCase()
-
                 if(camp.id=="CAMP"+random){
                     if(key==element.quote && element.value==true){
                         clear()
@@ -94,7 +93,6 @@ function questions(){
                         setScore(name)
                     }
                 }
-
             })
         }
         array.splice(random,1)
