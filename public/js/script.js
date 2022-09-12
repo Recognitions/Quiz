@@ -62,7 +62,7 @@ function questions(){
             const element = array[random].alt[index];
             const inputs = document.querySelector("#inputs")
             const div = document.createElement("div")
-            div.innerHTML=`<button id="A${element.quote}">${element.text}</button>`
+            div.innerHTML=`<button id="A${element.quote}">(${element.quote}) ${element.text}</button>`
             inputs.appendChild(div)
             document.querySelector(`#A${element.quote}`).addEventListener("click",()=>{
                 document.querySelector(`#A${element.quote}`).disabled
