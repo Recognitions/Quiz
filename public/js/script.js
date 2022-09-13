@@ -134,4 +134,3 @@ document.querySelector("#openRank").addEventListener("click",()=>{
     modal("open","#ranking")
     ranking()
 })
-writeFile("./","teste")
