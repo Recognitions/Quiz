@@ -1,8 +1,14 @@
 //console.log(md5("teste"))
 function render(){
-    const players = ((JSON.parse(localStorage.getItem("players"))).sort((a,b)=>{return b.points - a.points})).slice(0,10)
+    const players = JSON.parse(localStorage.getItem("players"))
+    let sortedPlayers
+    if(players){
+        sortedPlayers = (players.sort((a,b)=>{return b.points - a.points})).slice(0,10)
+    }else{
+        sortedPlayers = []
+    }
     console.log(players)
-    players.forEach((player)=>{
+    sortedPlayers.forEach((player)=>{
         const tbody = document.querySelector("tbody")
         const tr = document.createElement("tr")
         tr.innerHTML=`
@@ -27,3 +33,10 @@ function login(){
 }
 
 document.addEventListener("DOMContentLoaded",login)
+
+document.getElementById("clear").addEventListener("click",()=>{
+    if(confirm("Confirma que deseja zerar o ranking?")==true){
+        localStorage.clear()
+        render()
+    }
+})
