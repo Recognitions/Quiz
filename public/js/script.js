@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 import { array } from './perguntas.js'
-import { openModal,closeModal } from './modal.js'
+import { modal } from './modal.js'
 import { filter } from './filter.js'
 
 function clear(){
@@ -48,19 +48,11 @@ function ranking(){
     })
 }
 
-function checkInput(k){
-    if(k=="click"){
-
-    }else if(k=="keyup"){
-
-    }
-}
-
 let points = 1
 function questions(){
     const name = document.getElementById("name").value
-    openModal("main")
-    closeModal(".register")
+    modal("open","main")
+    modal("close",".register")
     if(array.length>0){
         let random = Math.floor(Math.random()*array.length)
         const mainTitle = document.querySelector(`main h1`)
@@ -84,7 +76,7 @@ function questions(){
                     playSound("point")
                 }else{
                     clear()
-                    openModal("#lose")
+                    modal("open","#lose")
                     setScore(name)
                 }
             })
@@ -98,7 +90,7 @@ function questions(){
                         playSound("point")
                     }else if(key==element.quote && element.value==false){
                         clear()
-                        openModal("#lose")
+                        modal("open","#lose")
                         setScore(name)
                     }
                 }
@@ -106,7 +98,7 @@ function questions(){
         }
         array.splice(random,1)
     }else{
-        openModal("#win")
+        modal("open","#win")
         setScore(name)
         playSound("win")
     }
@@ -140,6 +132,6 @@ document.getElementById("create").addEventListener("submit",(e)=>{
 })
 
 document.querySelector("#openRank").addEventListener("click",()=>{
-    openModal("#ranking")
+    modal("open","#ranking")
     ranking()
 })

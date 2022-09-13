@@ -1,8 +1,8 @@
-export function openModal(m){
+export function modal(t,m){
     const modal = document.querySelector(m)
-    modal.classList.add("active")
-}
-export function closeModal(m){
-    const modal = document.querySelector(m)
-    modal.classList.remove("active")
+    if(t=="open"){
+        modal.classList.add("active")
+    }else if(t=="close"){
+        modal.classList.remove("active")
+    }
 }

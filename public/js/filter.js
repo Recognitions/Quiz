@@ -5,5 +5,10 @@ export const filter = [
     "put",
     "hitl",
     "nazi",
-    "nigg"
+    "nigg",
+    "porra",
+    "vadia",
+    "bucet",
+    "suic",
+    "bill",
 ]
