@@ -32,19 +32,19 @@ function ranking(){
     const showPlayers = document.getElementById("showPlayers")
     showPlayers.innerHTML=""
     const players = JSON.parse(localStorage.getItem("players"))
-    const rankingArray = players.sort((a,b)=>{return b.points - a.points})
-    for(let i=0; i<10;i++){
+    const rankingArray = (players.sort((a,b)=>{return b.points - a.points})).slice(0,10)
+    rankingArray.forEach((elem)=>{
         const div = document.createElement("div")
         div.classList.add("topPlayer")
         div.innerHTML=`
-            <div>${rankingArray[i].name}</div>
-            <div title="Pontos">${rankingArray[i].points}🪙</div>
+            <div>${elem.name}</div>
+            <div title="Pontos">${elem.points}🪙</div>
             
         `
         showPlayers.appendChild(div)
-    }
+    })
     document.getElementById("ranking").addEventListener("click",()=>{
-        closeModal("#ranking")
+        modal("close","#ranking")
     })
 }
 
