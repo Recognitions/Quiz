@@ -8,8 +8,9 @@ function render(){
         sortedPlayers = []
     }
     console.log(players)
+    const tbody = document.querySelector("tbody")
+    tbody.innerHTML=""
     sortedPlayers.forEach((player)=>{
-        const tbody = document.querySelector("tbody")
         const tr = document.createElement("tr")
         tr.innerHTML=`
             <td>${player.name}</td>
@@ -38,5 +39,6 @@ document.getElementById("clear").addEventListener("click",()=>{
     if(confirm("Confirma que deseja zerar o ranking?")==true){
         localStorage.clear()
         render()
+        alert("Ranking esvaziado!")
     }
 })
