@@ -31,7 +31,7 @@ function ranking(){
     const showPlayers = document.getElementById("showPlayers")
     showPlayers.innerHTML=""
     const players = JSON.parse(localStorage.getItem("players"))
-    const rankingArray = (players.sort((a,b)=>{return b.points - a.points})).slice(0,10)
+    let rankingArray = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,10) : []
     rankingArray.forEach((elem)=>{
         const div = document.createElement("div")
         div.classList.add("topPlayer")

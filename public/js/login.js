@@ -1,12 +1,7 @@
 //console.log(md5("teste"))
 function render(){
     const players = JSON.parse(localStorage.getItem("players"))
-    let sortedPlayers
-    if(players){
-        sortedPlayers = (players.sort((a,b)=>{return b.points - a.points})).slice(0,10)
-    }else{
-        sortedPlayers = []
-    }
+    let sortedPlayers = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,10) : []
     console.log(players)
     const tbody = document.querySelector("tbody")
     tbody.innerHTML=""
