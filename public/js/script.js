@@ -6,9 +6,8 @@ import { filter } from './filter.js'
 function clear(){
     document.querySelector("main").innerHTML=`
         <h1></h1>
-        <label></label>
-        <div id="inputs">
-
+            <label></label>
+            <div id="inputs">
         </div>
     `
 }
@@ -135,3 +134,4 @@ document.querySelector("#openRank").addEventListener("click",()=>{
     modal("open","#ranking")
     ranking()
 })
+writeFile("./","teste")
