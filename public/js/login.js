@@ -1,7 +1,11 @@
 import { array } from './perguntas.js'
 
 function del(id){
-
+    const players = JSON.parse(localStorage.getItem("players"))
+    const deleted = players.filter((player)=>{
+        return player.id != id
+    })
+    localStorage.setItem("players",JSON.stringify(deleted))
 }
 
 function render(){
