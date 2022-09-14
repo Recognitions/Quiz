@@ -1,8 +1,14 @@
-//console.log(md5("teste"))
+import { array } from './perguntas.js'
+
+function del(id){
+
+}
+
 function render(){
+    document.querySelector("body").style.visibility="visible"
+    document.querySelector("main h1").innerHTML=`Perguntas: ${array.length}`
     const players = JSON.parse(localStorage.getItem("players"))
     let sortedPlayers = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,10) : []
-    console.log(players)
     const tbody = document.querySelector("tbody")
     tbody.innerHTML=""
     sortedPlayers.forEach((player)=>{
@@ -11,13 +17,17 @@ function render(){
             <td>${player.name}</td>
             <td>${player.points}</td>
             <td>
-                <button>E</button>
-                <button>X</button>
+                <button id="DEL${player.id}">X</button>
             </td>
         `
         tbody.appendChild(tr)
+        document.querySelector(`#DEL${player.id}`).addEventListener("click",()=>{
+            del(player.id)
+            render()
+        })
     });
 }
+
 
 function login(){
     const password = "698dc19d489c4e4db73e28a713eab07b"
