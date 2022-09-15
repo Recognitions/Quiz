@@ -113,6 +113,10 @@ main{
     border: 1px solid rgba(86, 18, 18, 0.507);
 }
 
+:root {
+  --botao: #eb7a34;
+}
+
 .active{
     transition: opacity 0.5s;
     opacity: 1;
@@ -128,6 +132,15 @@ main{
     position: fixed;
     top: 5px;
     left: 5px;
+}
+
+#openRank{
+    background-color: var(--botao);
+    color: white;
+    border-radius: 50px;
+    width: 5%;
+    height: 3%;
+
 }
 #ranking{
     background-color: #007792;
@@ -145,6 +158,7 @@ main{
     transform: rotateZ(30deg);
     text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
 }
+
 #showPlayers{
     width: 100%;
     display: flex;
@@ -173,6 +187,17 @@ main{
 }
 
 .register{
-    background-color: #333;
+    /* background-color: var(--fundo); */
+    background: linear-gradient(to top, green -35%, #4dcf34);
+    
     color: #f8f8f8;
+}
+
+#butao{
+    background-color: var(--botao);
+    color: white;
+    margin-top: 1em;
+    border-radius: 50px;
+    height: 35px;
+
 }
