@@ -138,8 +138,6 @@ main{
     background-color: var(--botao);
     color: white;
     border-radius: 50px;
-    width: 5%;
-    height: 3%;
 
 }
 #ranking{
@@ -188,7 +186,7 @@ main{
 
 .register{
     /* background-color: var(--fundo); */
-    background: linear-gradient(to top, green -35%, #4dcf34);
+    background: linear-gradient(to top, rgb(7, 85, 7) -30%, #4dcf34);
     
     color: #f8f8f8;
 }
@@ -198,6 +196,5 @@ main{
     color: white;
     margin-top: 1em;
     border-radius: 50px;
-    height: 35px;
 
 }
