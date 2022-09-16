@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, arial, courier;
     user-select: none;
 }
 header{
@@ -18,12 +18,26 @@ main{
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.4s;
-    background-color: #333;
+    background: linear-gradient(to top, rgb(7, 85, 7) -30%, #4dcf34);;
     color: #f8f8f8;
 }
 #inputs{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
+}
+#inputs button{
+  background-color: var(--botao);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 6px;
+  margin: 5px;
+  font-size: 18px;
+  
+}#inputs button:hover{
+  background-color: #ff751f;
+  text-shadow: 2px 2px 2px #b1541b;
 }
 
 .modal{
@@ -138,6 +152,9 @@ main{
     background-color: var(--botao);
     color: white;
     border-radius: 50px;
+    border: none;
+    padding: 4px;
+    font-size: 15px;
 
 }
 #ranking{
@@ -185,7 +202,6 @@ main{
 }
 
 .register{
-    /* background-color: var(--fundo); */
     background: linear-gradient(to top, rgb(7, 85, 7) -30%, #4dcf34);
     
     color: #f8f8f8;
@@ -195,6 +211,13 @@ main{
     background-color: var(--botao);
     color: white;
     margin-top: 1em;
+    padding: 4px;
     border-radius: 50px;
+    border: none;
+    font-size: 15px;
 
+}
+#image {
+ text-align: center;
+  margin-bottom: 1em;
 }
