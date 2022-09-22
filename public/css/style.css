@@ -42,6 +42,26 @@ main{
     flex-direction: column;
 }
 
+#inputs button{
+
+    width: 200px;
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--backbutton);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px var(--shadowbutton);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font: inherit;
+	cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+
+}
+
 #create {
     align-items: center;
     margin-top: 120px;
