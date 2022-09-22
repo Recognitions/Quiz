@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 *{
     margin: 0px;
-    font-family: Helvetica, arial, courier;
-    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    visibility: hidden;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -18,26 +24,62 @@ main{
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.4s;
-    background: linear-gradient(to top, rgb(7, 85, 7) -30%, #4dcf34);;
-    color: #f8f8f8;
+    background-color: rgb(34, 9, 79);
+    color: var(--white);
 }
+
+:root {
+    --backbutton: #00988d;
+    --shadowbutton: #005b53;
+    --background: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
+    --background-initial: #37ba0b;
+    --text-button: #f23e02;
+    --white: #fff;
+}
+
 #inputs{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
 }
-#inputs button{
-  background-color: var(--botao);
-  color: white;
-  border-radius: 50px;
-  border: none;
-  padding: 6px;
-  margin: 5px;
-  font-size: 18px;
-  
-}#inputs button:hover{
-  background-color: #ff751f;
-  text-shadow: 2px 2px 2px #b1541b;
+
+#create {
+    align-items: center;
+    margin-top: 120px;
+}
+
+footer {
+    align-items: center;
+    content: '';
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #423c96;
+    z-index: 1;
+}
+
+#div-home{
+    position: absolute;
+    width: 740px;
+    height: 400px;
+    background-color: #6159c6;
+    border: 3px #a099ff solid;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#name {
+    margin-left: 5px;
+    width: 200px;
+    height: 40px;
+    color: var(--text-button);
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none; 
+    text-align: center;
 }
 
 .modal{
@@ -55,12 +97,13 @@ main{
 
 #lose{
     background: linear-gradient(#fa4659,#e9007f);
-    color: white;
-    text-shadow: 1px 1px 2px red;
+    color: var(--white);
+    text-shadow: 1px 1px 2px var(--buttons);
 }
+
 #win{
     background: linear-gradient(#00b7c2,#4ef037);
-    color: white;
+    color: var(--white);
     text-shadow: 1px 1px 2px green;
 }
 
@@ -83,13 +126,15 @@ main{
     border: 1px solid pink;
     background-color: rgb(232, 20, 20);
     padding: 10px;
-    color: white;
+    color: var(--white);
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
     transition: 0.2s;
     box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.499);
-}#lose button:hover{
+}
+
+#lose button:hover{
     background-color: rgb(255, 183, 183);
     box-shadow: 0px 0px 20px 1px rgba(189, 52, 52, 0.499);
     text-shadow: 2px 2px 2px red;
@@ -98,13 +143,15 @@ main{
     border: 1px solid pink;
     background-color: rgb(20, 232, 59);
     padding: 10px;
-    color: white;
+    color: var(--white);
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
     transition: 0.2s;
     box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.499);
-}#win button:hover{
+}
+
+#win button:hover{
     background-color: rgb(183, 255, 208);
     box-shadow: 0px 0px 20px 1px rgba(82, 189, 52, 0.499);
     text-shadow: 2px 2px 2px green;
@@ -127,10 +174,6 @@ main{
     border: 1px solid rgba(86, 18, 18, 0.507);
 }
 
-:root {
-  --botao: #eb7a34;
-}
-
 .active{
     transition: opacity 0.5s;
     opacity: 1;
@@ -142,21 +185,61 @@ main{
     flex-direction: column;
 }
 
-#openRank{
-    position: fixed;
-    top: 5px;
-    left: 5px;
+#image {
+    width: 55px;
+    height:55px;
+    border-radius:100%;
+    background-size:100%;
 }
 
 #openRank{
-    background-color: var(--botao);
-    color: white;
-    border-radius: 50px;
-    border: none;
-    padding: 4px;
-    font-size: 15px;
-
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 1em;
+    border: 0;
+    padding: 2px;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--backbutton);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 0 2px var(--shadowbutton);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font: inherit;
+	cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+    font-size: 10px;
 }
+
+#openRank:active {
+    box-shadow: 0 0 0 0 var(--shadowbutton), inset 4px 4px 4px var(--shadowbutton);
+    transform: translate(6px, 6px);
+}
+#enter {
+    width: 200px;
+    display: inline-block;
+    margin: 1.5em;
+    border: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--backbutton);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px var(--shadowbutton);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font: inherit;
+	cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+}
+
+#enter:active {
+    box-shadow: 0 0 0 0 var(--shadowbutton), inset 4px 4px 4px var(--shadowbutton);
+    transform: translate(6px, 6px);
+}
+
 #ranking{
     background-color: #007792;
     color: rgb(229, 229, 229);
@@ -173,7 +256,6 @@ main{
     transform: rotateZ(30deg);
     text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
 }
-
 #showPlayers{
     width: 100%;
     display: flex;
@@ -181,6 +263,7 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 .topPlayer{
     width: 50%;
     display: flex;
@@ -191,10 +274,12 @@ main{
     text-transform: uppercase;
     transition: 0.2s;
 }
+
 .topPlayer:hover{
     font-size: 20px;
-    text-shadow: 0px 0px 3px white;
+    text-shadow: 0px 0px 3px var(--white);
 }
+
 .topPlayer:first-child{
     color: gold;
     margin: 5px;
@@ -202,22 +287,6 @@ main{
 }
 
 .register{
-    background: linear-gradient(to top, rgb(7, 85, 7) -30%, #4dcf34);
-    
-    color: #f8f8f8;
-}
-
-#butao{
-    background-color: var(--botao);
-    color: white;
-    margin-top: 1em;
-    padding: 4px;
-    border-radius: 50px;
-    border: none;
-    font-size: 15px;
-
-}
-#image {
- text-align: center;
-  margin-bottom: 1em;
+    background: var(--background);
+    color: var(--white);
 }
