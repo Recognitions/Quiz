@@ -39,7 +39,7 @@ main{
 
 #inputs{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #create {
@@ -186,10 +186,9 @@ footer {
 }
 
 #image {
-    width: 55px;
-    height:55px;
-    border-radius:100%;
-    background-size:100%;
+    width: 200px;
+    height: 100px;
+
 }
 
 #openRank{
