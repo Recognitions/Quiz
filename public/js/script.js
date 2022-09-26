@@ -5,9 +5,9 @@ import { filter } from './filter.js'
 
 function clear(){
     document.querySelector("main").innerHTML=`
-        <h1></h1>
-            <label></label>
-            <div id="inputs">
+        <h1 id="themeQuestion"></h1>
+        <label id="question"></label>
+        <div id="inputs">
         </div>
     `
 }

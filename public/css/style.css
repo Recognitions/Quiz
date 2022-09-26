@@ -43,7 +43,6 @@ main{
 }
 
 #inputs button{
-
     width: 200px;
     display: inline-block;
     margin: 1.5em;
@@ -59,7 +58,13 @@ main{
 	cursor: pointer;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 2px;
-
+    min-height:50px;
+    max-height: auto;
+}#inputs button:active{
+    box-shadow: 0 0 0 0 var(--shadowbutton), inset 4px 4px 4px var(--shadowbutton);
+    transform: translate(6px, 6px);
+}#inputs button:hover{
+    filter:brightness(1.2);
 }
 
 #create {
@@ -327,4 +332,23 @@ footer {
 .register{
     background: var(--background);
     color: var(--white);
+}
+
+#question{
+    width: 90%;
+    background: rgb(76, 8, 116);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(159, 9, 159);
+    border-bottom-color: rgb(73, 0, 73);
+    font-size: 40px;
+    box-shadow: inset 0px 0px 20px 1px rgba(255,255,255,0.3);
+}
+
+.animatedBackground{
+    background-image: url(/public/img/galaxy.gif) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
