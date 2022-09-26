@@ -46,11 +46,6 @@ export const array = [
             },
             {
                 quote: "D",
-                text: "Deputado Estadual",
-                value: false
-            },
-            {
-                quote: "E",
                 text: "Presidente da República",
                 value: true
             }
@@ -79,11 +74,6 @@ export const array = [
                 quote: "D",
                 text: "Vitória",
                 value: true
-            },
-            {
-                quote: "E",
-                text: "Maceió",
-                value: false
             }
         ]
     },
@@ -136,11 +126,6 @@ export const array = [
                 quote: "D",
                 text: "terreno arborizado, destinado à recreação",
                 value: false
-            },
-            {
-                quote: "E",
-                text: "passeio de estudo ou de observação",
-                value: false
             }
         ]
     },
@@ -166,11 +151,6 @@ export const array = [
             {
                 quote: "D",
                 text: "Malta e Estados Unidos",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "São Marino e Índia",
                 value: false
             }
         ]
@@ -198,11 +178,6 @@ export const array = [
                 quote: "D",
                 text: "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
                 value: false
-            },
-            {
-                quote: "E",
-                text: "Álvares de Azevedo, Gregório de Matos e Bento Teixeira",
-                value: false
             }
         ]
     },
@@ -228,11 +203,6 @@ export const array = [
             {
                 quote: "D",
                 text: "Fabiano cortou o saco antes de cair",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Fabiano rasgou seu paletó antes de cair",
                 value: false
             }
         ]
@@ -260,11 +230,6 @@ export const array = [
                 quote: "D",
                 text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Sol, Terra, Urano, Vênus",
                 value: false
-            },
-            {
-                quote: "E",
-                text: "Terra, Vênus, Saturno, Júpiter, Marte, Netuno, Mercúrio",
-                value: false
             }
         ]
     },
@@ -290,11 +255,6 @@ export const array = [
             {
                 quote: "D",
                 text: "Alberto Caeiro, Ricardo Leite e Augusto de Campos",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Bento Teixeira, Ricardo Reis e Augusto de Campos",
                 value: false
             }
         ]
@@ -322,11 +282,6 @@ export const array = [
                 quote: "D",
                 text: "Tem 7 litros. São retirados 1,5 litros",
                 value: false
-            },
-            {
-                quote: "E",
-                text: "Tem 0,5 litros. São retirados 0,5 litros",
-                value: false
             }
         ]
     },
@@ -352,11 +307,6 @@ export const array = [
             {
                 quote: "D",
                 text: "Austrália",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Itália",
                 value: false
             }
         ]
