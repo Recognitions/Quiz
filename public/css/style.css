@@ -39,7 +39,7 @@ main{
 
 #inputs{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #inputs button{
@@ -64,7 +64,7 @@ main{
 
 #create {
     align-items: center;
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 footer {
@@ -88,6 +88,18 @@ footer {
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     overflow: hidden;
+}
+
+#div-players{
+    position: absolute;
+    width: 740px;
+    height: 400px;
+    background-color: #007792;
+    border: 3px #a099ff solid;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
 }
 
 #name {
@@ -209,8 +221,8 @@ footer {
 }
 
 #image {
-    width: 370px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position: relative;
     bottom: 130px;
 
@@ -267,11 +279,11 @@ footer {
 }
 
 #ranking{
-    background-color: #007792;
+    background-color: var(--background);
     color: rgb(229, 229, 229);
 }
 #ranking h1{
-    margin: 10px;
+    margin: 25px;
     text-shadow: 1px 1px 1px black;
     font-size: 40px;
 }

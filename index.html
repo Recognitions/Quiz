@@ -12,12 +12,13 @@
 <body>
   <div class="register modal active">
     <div id="div-home">
-      <button id="openRank">Ranking</button>
+      <button id="openRank">RANKING</button>
       <form id="create">
-        <img src="public/img/quizapkkk.png" id="image" alt="quizap">
+        <img src="public/img/quizapkk.png" id="image" alt="quizap">
         <input type="text" minlength="2" maxlengthc="25" placeholder="Seu nome" id="name">
         <button type="submit" id="enter">JOGAR</button>
       </form>
+      <footer></footer>
     </div>
   </div>
   <div class="camp">
@@ -25,8 +26,8 @@
       <h1></h1>
     </header>
     <main>
-      <h1></h1>
-      <label></label>
+      <h1 id="themeQuestion"></h1>
+      <label id="question"></label>
       <div id="inputs">
       </div>
     </main>
@@ -45,9 +46,11 @@
       <button id="new">Novo Jogo</button>
     </section>
     <section id="ranking" class="modal">
-      <h1>Ranking ・ Top 10<b>👑</b></h1>
-      <div id="showPlayers">
-        <!-- VIEW PLAYERS -->
+      <div id="div-players">
+        <h1 id="h1-rank">Ranking ・ Top 10<b>👑</b></h1>
+        <div id="showPlayers">
+          <!-- VIEW PLAYERS -->
+        </div>
       </div>
     </section>
   </div>
