@@ -1,7 +1,11 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 import { array } from './perguntas.js'
 import { modal } from './modal.js'
 import { filter } from './filter.js'
+
+function uuidv4(){
+    const uuidv4 = Math.floor(Math.random()*999999)
+    return uuidv4
+}
 
 function clear(){
     document.querySelector("main").innerHTML=`
