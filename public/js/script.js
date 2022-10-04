@@ -5,7 +5,7 @@ import { filter } from './filter.js'
 const locked = false
 
 if(locked==true){
-    window.location.href="./soon"
+    window.location.href="./soon.html"
 }
 
 function uuidv4(){
@@ -41,13 +41,13 @@ function ranking(){
     const showPlayers = document.getElementById("showPlayers")
     showPlayers.innerHTML=""
     const players = JSON.parse(localStorage.getItem("players"))
-    let rankingArray = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,10) : []
+    let rankingArray = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,5) : []
     rankingArray.forEach((elem)=>{
         const div = document.createElement("div")
         div.classList.add("topPlayer")
         div.innerHTML=`
             <div>${elem.name}</div>
-            <div title="Pontos">${elem.points}🪙</div>
+            <div title="Pontos">${elem.points} 🪙</div>
             
         `
         showPlayers.appendChild(div)

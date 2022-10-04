@@ -35,10 +35,12 @@ main{
     --backbutton: #00988d;
     --shadowbutton: #005b53;
     --background: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
-    --rankbackground: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
+    --pbackground: radial-gradient(circle, rgb(33, 108, 158) 0%, rgb(5, 49, 85) 90%) rgb(33, 112, 158);
+    --gradientfont: linear-gradient(to bottom, rgb(235, 235, 235) 50%, rgb(139, 139, 139));
     --background-initial: #37ba0b;
     --text-button: #f23e02;
     --white: #fff;
+    
 }
 
 #inputs{
@@ -106,7 +108,7 @@ footer {
     position: absolute;
     width: 70%;
     height: 400px;
-    background-color: #007792;
+    background: var(--pbackground);
     border: 3px #a099ff solid;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -116,7 +118,7 @@ footer {
 
 #name {
     position: relative;
-    bottom: 120px;
+    bottom: 150px;
     
     margin-left: 5px;
     width: 200px;
@@ -233,10 +235,10 @@ footer {
 }
 
 #image {
-    width: 200px;
-    height: 100px;
+    width: 260px;
+    height: 150px;
     position: relative;
-    bottom: 130px;
+    bottom: 150px;
 
 }
 
@@ -266,7 +268,7 @@ footer {
 }
 #enter {
     position: relative;
-    bottom: 130px;
+    bottom: 160px;
     width: 200px;
     display: inline-block;
     margin: 1.5em;
@@ -291,20 +293,45 @@ footer {
 }
 
 #ranking{
-    background: var(--rankbackground);
-    color: rgb(229, 229, 229);
+    color: white
 }
 #ranking h1{
-    margin: 25px;
-    text-shadow: 1px 1px 1px black;
+    background-image: var(--gradientfont);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    margin: 30px;
     font-size: 40px;
 }
-#ranking h1 b{
+#crown{
     position: absolute;
-    margin-left: -26px;
-    margin-top: -25px;
+    top: 10px;
+    margin-left: 145px;
     transform: rotateZ(30deg);
-    text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
+    font-size: 40px;
+    text-shadow: 1px -2px 1px rgba(0, 0, 0, 0.2);
+}
+#winner{
+    position: absolute;
+    left: 240px;
+    bottom: 255px;
+    font-size: 25px;
+    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
+}
+#second{
+    position: absolute;
+    left: 240px;
+    bottom: 215px;
+    font-size: 25px;
+    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
+}
+#third{
+    position: absolute;
+    left: 240px;
+    bottom: 175px;
+    font-size: 25px;
+    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
 }
 #showPlayers{
     width: 100%;
@@ -323,6 +350,7 @@ footer {
     font-size: 18px;
     text-transform: uppercase;
     transition: 0.2s;
+    margin: 10px;
 }
 
 .topPlayer:hover{

@@ -83,8 +83,8 @@ export const array = [
         alt: [
             {
                 quote: "A",
-                text: "Carla tem 14, Paula tem 12, Leila tem 10 e Vivian tem 8.",
-                value: false
+                text: "Vivian tem 9, Leila tem 11, Paula tem 13 e Carla tem 15.",
+                value: true
             },
             {
                 quote: "B",
@@ -94,7 +94,7 @@ export const array = [
             {
                 quote: "C",
                 text: "Carla tem 9, Paula tem 11, Leila tem 13 e Vivian tem 15.",
-                value: true
+                value: false
             },
             {
                 quote: "D",
@@ -115,12 +115,12 @@ export const array = [
             {
                 quote: "B",
                 text: "0,0336",
-                value: false
+                value: true
             },
             {
                 quote: "C",
                 text: "0,1056",
-                value: true
+                value: false
             },
             {
                 quote: "D",
@@ -140,12 +140,12 @@ export const array = [
             },
             {
                 quote: "B",
-                text: "135",
+                text: "142",
                 value: false
             },
             {
                 quote: "C",
-                text: "142",
+                text: "135",
                 value: true
             },
             {
