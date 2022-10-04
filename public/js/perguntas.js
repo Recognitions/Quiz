@@ -1,46 +1,47 @@
 export const array = [
     {
-        title: "Questão de Matemática.",
-        text: "Se 3 gatos matam 3 ratos em 3 minutos, quanto tempo levarão 100 gatos para matar 100 ratos?",
+        title: "Questão de Português",
+        text: "Assinale a alternativa em que o significado do radical esteja errado:",
         alt: [
             {
                 quote: "A",
-                text: "1 minuto",
+                text: "hidro: água (exemplo: hidráulico)",
                 value: false
             },
             {
                 quote: "B",
-                text: "3 minutos",
+                text: "antropo: antigo (exemplo: antropologia)",
                 value: true
             },
             {
                 quote: "C",
-                text: "30 minutos",
+                text: "bio: vida (exemplo biologia)",
                 value: false
             },
             {
                 quote: "D",
-                text: "100 minutos",
+                text: "agri: campo (exemplo: agricultura)",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Conhecimentos Gerais",
-        text: "O poder executivo no Brasil tem como principal representante o:",
+        title: "Questão de Português",
+        text: "Das redações abaixo, assinale a que não está pontuada corretamente:",
         alt: [
             {
                 quote: "A",
-                text: "Vereador",
+                text: "Os candidatos, em fila, aguardavam ansiosos o resultado do concurso.",
                 value: false
             },
             {
                 quote: "B",
-                text: "Prefeito",
+                text: "Em fila, os candidatos, aguardavam, ansiosos, o resultado do concurso.",
                 value: false
             },
             {
                 quote: "C",
+<<<<<<< HEAD
                 text: "Governador",
                 value: false
             },
@@ -74,134 +75,156 @@ export const array = [
                 quote: "D",
                 text: "Vitória",
                 value: true
-            }
-        ]
-    },
-    {
-        title: "Questão de Filosofia",
-        text: "René Descartes desenvolveu um método filosófico baseado na dúvida para encontrar uma certeza na qual possa fundamentar o conhecimento seguro. Essa certeza fundamental de Descartes é chamada de cogito e sua formulação principal diz:",
-        alt: [
-            {
-                quote: "A",
-                text: "Penso, logo existo",
-                value: true
-            },
-            {
-                quote: "B",
-                text: "Deus sive natura",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "Conhece-te a ti mesmo",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Só sei que nada sei",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Conhecimentos Gerais",
-        text: "Se você for a um empório, estará indo em um...",
-        alt: [
-            {
-                quote: "A",
-                text: "ponto turístico importante de uma cidade",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "edifício onde se reúnem os fiéis para exercer o seu culto",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "estabelecimento comercial que vende vários tipos de mercadorias",
+=======
+                text: "Ansiosos, os candidatos aguardavam, em fila, o resultado do concurso.",
                 value: true
             },
             {
                 quote: "D",
+                text: "Os candidatos ansiosos aguardavam o resultado do concurso, em fila.",
+                value: false
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Assinale a alternativa em que a forma está destacada e classificada corretamente.",
+        alt: [
+            {
+                quote: "A",
+                text: "IN-venção: prefixo.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "ESTUDIOSO-s: radical.",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "pode- MOS: desinência número-pessoal.",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "rapaziad- A: desinência de gênero.",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Matemática",
+        text: "Carla tem 2 reais a mais que Paula, Paula tem dois reais a mais que Leia e Leia tem dois reais a mais que Vivian. As 4 juntas possuem 48 reais. Quanto cada uma tem individualmente?",
+        alt: [
+            {
+                quote: "A",
+                text: "Carla tem 14, Paula tem 12, Leila tem 10 e Vivian tem 8.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Vivian tem 8, Leila tem 10, Paula tem 12 e Carla tem 14.",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Carla tem 9, Paula tem 11, Leila tem 13 e Vivian tem 15.",
+                value: true
+            },
+            {
+                quote: "D",
+<<<<<<< HEAD
                 text: "terreno arborizado, destinado à recreação",
+=======
+                text: "Carla tem 10, Paula tem 12, Leila tem 14 e Vivian tem 16.",
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Geografia",
-        text: "Quais o menor e o maior país do mundo?",
+        title: "Questão de Matemática",
+        text: "O valor de (0,2)³ + (0,16)² é:",
         alt: [
             {
                 quote: "A",
-                text: "Vaticano e Rússia",
-                value: true
+                text: "0,0264",
+                value: false
             },
             {
                 quote: "B",
-                text: "Nauru e China",
+                text: "0,0336",
                 value: false
             },
             {
                 quote: "C",
-                text: "Mônaco e Canadá",
-                value: false
+                text: "0,1056",
+                value: true
             },
             {
                 quote: "D",
+<<<<<<< HEAD
                 text: "Malta e Estados Unidos",
+=======
+                text: "0,2568",
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Literatura",
-        text: "Quais os principais autores do Barroco no Brasil?",
+        title: "Questão de Matemática",
+        text: "Duas empreiteiras farão conjuntamente a pavimentação de uma estrada, cada uma trabalhando a partir de uma das extremidades. Se uma delas pavimentar 2/5 da estrada e a outra os 81 km restantes, a extensão dessa estrada é de:",
         alt: [
             {
                 quote: "A",
-                text: "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
-                value: true
+                text: "125",
+                value: false
             },
             {
                 quote: "B",
-                text: "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
+                text: "135",
                 value: false
             },
             {
                 quote: "C",
-                text: "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
-                value: false
+                text: "142",
+                value: true
             },
             {
                 quote: "D",
+<<<<<<< HEAD
                 text: "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
+=======
+                text: "145",
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Espanhol",
-        text: "Qual a tradução da frase “Fabiano cogió su saco antes de salir”?",
+        title: "",
+        text: "",
         alt: [
             {
                 quote: "A",
-                text: "Fabiano coseu seu paletó antes de sair",
+                text: "",
                 value: false
             },
             {
                 quote: "B",
-                text: "Fabiano fechou o saco antes de sair",
+                text: "",
                 value: false
             },
             {
                 quote: "C",
-                text: "Fabiano pegou seu paletó antes de sair",
+                text: "",
                 value: true
             },
             {
                 quote: "D",
+<<<<<<< HEAD
                 text: "Fabiano cortou o saco antes de cair",
                 value: false
             }
@@ -311,4 +334,11 @@ export const array = [
             }
         ]
     }
+=======
+                text: "",
+                value: false
+            }
+        ]
+    }, 
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
 ]

@@ -20,6 +20,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     justify-content: space-around;
     visibility: hidden;
     opacity: 0;
@@ -27,11 +28,14 @@ main{
     background-color: rgb(34, 9, 79);
     color: var(--white);
 }
-
+#themeQuestion{
+    margin: 20px;
+}
 :root {
     --backbutton: #00988d;
     --shadowbutton: #005b53;
     --background: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
+    --rankbackground: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
     --background-initial: #37ba0b;
     --text-button: #f23e02;
     --white: #fff;
@@ -40,6 +44,9 @@ main{
 #inputs{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #inputs button{
@@ -86,7 +93,7 @@ footer {
 
 #div-home{
     position: absolute;
-    width: 740px;
+    width: 70%;
     height: 400px;
     background-color: #6159c6;
     border: 3px #a099ff solid;
@@ -97,7 +104,7 @@ footer {
 
 #div-players{
     position: absolute;
-    width: 740px;
+    width: 70%;
     height: 400px;
     background-color: #007792;
     border: 3px #a099ff solid;
@@ -284,7 +291,7 @@ footer {
 }
 
 #ranking{
-    background-color: var(--background);
+    background: var(--rankbackground);
     color: rgb(229, 229, 229);
 }
 #ranking h1{
@@ -342,7 +349,11 @@ footer {
     border-radius: 10px;
     border: 3px solid rgb(159, 9, 159);
     border-bottom-color: rgb(73, 0, 73);
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 30px;
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
     box-shadow: inset 0px 0px 20px 1px rgba(255,255,255,0.3);
 }
 

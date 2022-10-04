@@ -2,6 +2,15 @@ import { array } from './perguntas.js'
 import { modal } from './modal.js'
 import { filter } from './filter.js'
 
+<<<<<<< HEAD
+=======
+const locked = false
+
+if(locked==true){
+    window.location.href="./soon.html"
+}
+
+>>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
 function uuidv4(){
     const uuidv4 = Math.floor(Math.random()*999999)
     return uuidv4
