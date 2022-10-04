@@ -1,364 +1,184 @@
 export const array = [
     {
-        title: "Questão de Matemática.",
-        text: "Se 3 gatos matam 3 ratos em 3 minutos, quanto tempo levarão 100 gatos para matar 100 ratos?",
+        title: "Questão de Português",
+        text: "Assinale a alternativa em que o significado do radical esteja errado:",
         alt: [
             {
                 quote: "A",
-                text: "1 minuto",
+                text: "hidro: água (exemplo: hidráulico)",
                 value: false
             },
             {
                 quote: "B",
-                text: "3 minutos",
+                text: "antropo: antigo (exemplo: antropologia)",
                 value: true
             },
             {
                 quote: "C",
-                text: "30 minutos",
+                text: "bio: vida (exemplo biologia)",
                 value: false
             },
             {
                 quote: "D",
-                text: "100 minutos",
+                text: "agri: campo (exemplo: agricultura)",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Conhecimentos Gerais",
-        text: "O poder executivo no Brasil tem como principal representante o:",
+        title: "Questão de Português",
+        text: "Das redações abaixo, assinale a que não está pontuada corretamente:",
         alt: [
             {
                 quote: "A",
-                text: "Vereador",
+                text: "Os candidatos, em fila, aguardavam ansiosos o resultado do concurso.",
                 value: false
             },
             {
                 quote: "B",
-                text: "Prefeito",
+                text: "Em fila, os candidatos, aguardavam, ansiosos, o resultado do concurso.",
                 value: false
             },
             {
                 quote: "C",
-                text: "Governador",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Deputado Estadual",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Presidente da República",
-                value: true
-            }
-        ]
-    },
-    {
-        title: "Questão de Geografia",
-        text: "A única capital brasileira que não pertence à Região Nordeste é:",
-        alt: [
-            {
-                quote: "A",
-                text: "Natal",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "Teresina",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "São Luís",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Vitória",
+                text: "Ansiosos, os candidatos aguardavam, em fila, o resultado do concurso.",
                 value: true
             },
             {
-                quote: "E",
-                text: "Maceió",
+                quote: "D",
+                text: "Os candidatos ansiosos aguardavam o resultado do concurso, em fila.",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Filosofia",
-        text: "René Descartes desenvolveu um método filosófico baseado na dúvida para encontrar uma certeza na qual possa fundamentar o conhecimento seguro. Essa certeza fundamental de Descartes é chamada de cogito e sua formulação principal diz:",
+        title: "Questão de Português",
+        text: "Assinale a alternativa em que a forma está destacada e classificada corretamente.",
         alt: [
             {
                 quote: "A",
-                text: "Penso, logo existo",
-                value: true
+                text: "IN-venção: prefixo.",
+                value: false
             },
             {
                 quote: "B",
-                text: "Deus sive natura",
+                text: "ESTUDIOSO-s: radical.",
                 value: false
             },
             {
                 quote: "C",
-                text: "Conhece-te a ti mesmo",
-                value: false
+                text: "pode- MOS: desinência número-pessoal.",
+                value: true
             },
             {
                 quote: "D",
-                text: "Só sei que nada sei",
+                text: "rapaziad- A: desinência de gênero.",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Conhecimentos Gerais",
-        text: "Se você for a um empório, estará indo em um...",
+        title: "Questão de Matemática",
+        text: "Carla tem 2 reais a mais que Paula, Paula tem dois reais a mais que Leia e Leia tem dois reais a mais que Vivian. As 4 juntas possuem 48 reais. Quanto cada uma tem individualmente?",
         alt: [
             {
                 quote: "A",
-                text: "ponto turístico importante de uma cidade",
+                text: "Carla tem 14, Paula tem 12, Leila tem 10 e Vivian tem 8.",
                 value: false
             },
             {
                 quote: "B",
-                text: "edifício onde se reúnem os fiéis para exercer o seu culto",
+                text: "Vivian tem 8, Leila tem 10, Paula tem 12 e Carla tem 14.",
                 value: false
             },
             {
                 quote: "C",
-                text: "estabelecimento comercial que vende vários tipos de mercadorias",
+                text: "Carla tem 9, Paula tem 11, Leila tem 13 e Vivian tem 15.",
                 value: true
             },
             {
                 quote: "D",
-                text: "terreno arborizado, destinado à recreação",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "passeio de estudo ou de observação",
+                text: "Carla tem 10, Paula tem 12, Leila tem 14 e Vivian tem 16.",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Geografia",
-        text: "Quais o menor e o maior país do mundo?",
+        title: "Questão de Matemática",
+        text: "O valor de (0,2)³ + (0,16)² é:",
         alt: [
             {
                 quote: "A",
-                text: "Vaticano e Rússia",
-                value: true
+                text: "0,0264",
+                value: false
             },
             {
                 quote: "B",
-                text: "Nauru e China",
+                text: "0,0336",
                 value: false
             },
             {
                 quote: "C",
-                text: "Mônaco e Canadá",
-                value: false
+                text: "0,1056",
+                value: true
             },
             {
                 quote: "D",
-                text: "Malta e Estados Unidos",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "São Marino e Índia",
+                text: "0,2568",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Literatura",
-        text: "Quais os principais autores do Barroco no Brasil?",
+        title: "Questão de Matemática",
+        text: "Duas empreiteiras farão conjuntamente a pavimentação de uma estrada, cada uma trabalhando a partir de uma das extremidades. Se uma delas pavimentar 2/5 da estrada e a outra os 81 km restantes, a extensão dessa estrada é de:",
         alt: [
             {
                 quote: "A",
-                text: "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
-                value: true
+                text: "125",
+                value: false
             },
             {
                 quote: "B",
-                text: "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
+                text: "135",
                 value: false
             },
             {
                 quote: "C",
-                text: "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
-                value: false
+                text: "142",
+                value: true
             },
             {
                 quote: "D",
-                text: "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Álvares de Azevedo, Gregório de Matos e Bento Teixeira",
+                text: "145",
                 value: false
             }
         ]
     },
     {
-        title: "Questão de Espanhol",
-        text: "Qual a tradução da frase “Fabiano cogió su saco antes de salir”?",
+        title: "",
+        text: "",
         alt: [
             {
                 quote: "A",
-                text: "Fabiano coseu seu paletó antes de sair",
+                text: "",
                 value: false
             },
             {
                 quote: "B",
-                text: "Fabiano fechou o saco antes de sair",
+                text: "",
                 value: false
             },
             {
                 quote: "C",
-                text: "Fabiano pegou seu paletó antes de sair",
+                text: "",
                 value: true
             },
             {
                 quote: "D",
-                text: "Fabiano cortou o saco antes de cair",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Fabiano rasgou seu paletó antes de cair",
+                text: "",
                 value: false
             }
         ]
-    },
-    {
-        title: "Questão de Conhecimentos Gerais",
-        text: "Quais os planetas do sistema solar?",
-        alt: [
-            {
-                quote: "A",
-                text: "Terra, Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio",
-                value: true
-            },
-            {
-                quote: "B",
-                text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Terra, Urano, Vênus",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Sol, Terra, Urano, Vênus",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Terra, Vênus, Saturno, Júpiter, Marte, Netuno, Mercúrio",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Literatura",
-        text: "Quais os principais heterônimos de Fernando Pessoa?",
-        alt: [
-            {
-                quote: "A",
-                text: "Alberto Caeiro, Ricardo Reis e Álvaro de Campos",
-                value: true
-            },
-            {
-                quote: "B",
-                text: "Ariano Suassuna, Raul Bopp e Quincas Borba",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "Bento Teixeira, Ricardo Reis e Haroldo de Campos",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Alberto Caeiro, Ricardo Leite e Augusto de Campos",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Bento Teixeira, Ricardo Reis e Augusto de Campos",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Conhecimentos Gerais",
-        text: "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
-        alt: [
-            {
-                quote: "A",
-                text: "Tem entre 2 a 4 litros. São retirados 450 mililitros",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "Tem entre 4 a 6 litros. São retirados 450 mililitros",
-                value: true
-            },
-            {
-                quote: "C",
-                text: "Tem 10 litros. São retirados 2 litros",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "Tem 7 litros. São retirados 1,5 litros",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Tem 0,5 litros. São retirados 0,5 litros",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de conhecimentos gerais",
-        text: "De onde é a invenção do chuveiro elétrico?",
-        alt: [
-            {
-                quote: "A",
-                text: "França",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "Inglaterra",
-                value: false
-            },
-            {
-                quote: "C",
-                text: "Brasil",
-                value: true
-            },
-            {
-                quote: "D",
-                text: "Austrália",
-                value: false
-            },
-            {
-                quote: "E",
-                text: "Itália",
-                value: false
-            }
-        ]
-    }
+    }, 
 ]

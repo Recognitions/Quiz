@@ -1,13 +1,23 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 import { array } from './perguntas.js'
 import { modal } from './modal.js'
 import { filter } from './filter.js'
 
+const locked = false
+
+if(locked==true){
+    window.location.href="./soon.html"
+}
+
+function uuidv4(){
+    const uuidv4 = Math.floor(Math.random()*999999)
+    return uuidv4
+}
+
 function clear(){
     document.querySelector("main").innerHTML=`
-        <h1></h1>
-            <label></label>
-            <div id="inputs">
+        <h1 id="themeQuestion"></h1>
+        <label id="question"></label>
+        <div id="inputs">
         </div>
     `
 }
