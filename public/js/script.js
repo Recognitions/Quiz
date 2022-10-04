@@ -5,7 +5,7 @@ import { filter } from './filter.js'
 const locked = false
 
 if(locked==true){
-    window.location.href="./soon.html"
+    window.location.href="./soon"
 }
 
 function uuidv4(){
