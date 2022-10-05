@@ -674,5 +674,551 @@ export const array = [
                 value: false
             }
         ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Assinale a opção que apresenta a regência verbal incorreta, de acordo com a norma culta da língua:",
+        alt: [
+            {
+                quote: "A",
+                text: "Os sertanejos aspiram a uma vida mais confortável.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Obedeceu rigorosamente ao horário de trabalho do corte da cana.",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "O rapaz presenciou o trabalho dos canavieiros.",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "O fazendeiro agrediu-lhe sem necessidades.",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Indique a alternativa em que a função não corresponde aos termo em destaque:",
+        alt: [
+            {
+                quote: "A",
+                text: "Comer demais é prejudicial à saúde. (complemento nominal)",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Tinha grande amor à humanidade. (objeto indireto)",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "Ele foi cercado de amigos sinceros. (agente da passiva)",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "Não tens interesse pelos estudos. (complemento nominal)",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Literatura",
+        text: "Sobre a literatura produzida no primeiro século da vida colonial brasileira, é correto afirmar que:",
+        alt: [
+            {
+                quote: "A",
+                text: "É formada principalmente de poemas narrativos e textos dramáticos que visavam à catequese",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Inicia com Prosopopeia, de Bento Teixeira",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "É constituída por documentos que informam acerca da terra brasileira e pela literatura jesuítica",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "Os textos que a constituem apresentam evidente preocupação artística e pedagógica",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Literatura",
+        text: "A “literatura jesuíta”, nos primórdios de nossa história:",
+        alt: [
+            {
+                quote: "C",
+                text: "visa à catequese do índio, à instrução do colono e sua assistência religiosa e moral",
+                value: true
+            },
+            {
+                quote: "A",
+                text: "tem grande valor informativo",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "marca nossa maturação clássica",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "está a serviço do poder real",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Literatura",
+        text: "Quanto às manifestações literárias brasileiras aparecidas durante o período colonial:",
+        alt: [
+            {
+                quote: "A",
+                text: "refletiam a grandeza da Literatura Portuguesa da época.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "não havia obras escritas, existia, pois, como manifestação oral.",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "eram ainda incipientes, apesar de escritas, pois a metrópole não incentivava este tipo de produção.",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "o expressivo número de escritores que apareceram obreiam-se com os maiores vultos da literatura universal.",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "A alternativa que possui um substantivo comum, simples, concreto e primitivo é:",
+        alt: [
+            {
+                quote: "B",
+                text: "menina",
+                value: true
+            },
+            {
+                quote: "A",
+                text: "casebre",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "helena",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "honestidade",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "",
+        alt: [
+            {
+                quote: "A",
+                text: "",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "",
+                value: false
+            }
+        ]
     }, 
 ]
