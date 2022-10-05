@@ -833,390 +833,468 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Dos itens abaixo, o que apresenta conectivos de adição é:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "Ademais, outrossim, contudo",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
-            },
-            {
-                quote: "C",
-                text: "",
+                text: "Porém, sobretudo, mais",
                 value: false
             },
             {
+                quote: "C",
+                text: "Além disso, ademais, de igual modo",
+                value: true
+            },
+            {
                 quote: "D",
-                text: "",
+                text: "Contudo, demais, discordialmente",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Na frase: O carro é de Salvador, é apresentado uma preposição de: ",
         alt: [
             {
                 quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
+                text: "Lugar",
                 value: true
             },
             {
+                quote: "B",
+                text: "Modo",
+                value: false
+            },
+            {
                 quote: "C",
-                text: "",
+                text: "Tempo",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "Causa",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "A utilização do hífen se baseia em:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "Separar palavras compostas",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
+                text: "Unir palavras compostas",
                 value: true
             },
             {
                 quote: "C",
-                text: "",
+                text: "Utilizar no término de um prefixo sem adição de uma segunda palavra",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "Usar palavras iniciadas em 'socio'",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Na palavra Pneumoultramicroscopicossilicovulcanoconiótico, o item correspondente as vogais é:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "20 vogais",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
+                text: "22 vogais",
+                value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "19 vogais",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "21 vogais",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "O item que melhor se encaixa na frase: O médico ficou ____ satisfeito após a cirurgia, ____ ele não deu o resultado à família",
+        alt: [
+            {
+                quote: "A",
+                text: "tão, que",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "mais, mas",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "mas, mais",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "melhor, porém",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Usa-se crase:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "após palavras provenientes masculinas",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
+                text: "após substantivos próprios",
+                value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "antes de palavras femininas",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "após locuções adverbiais masculinas",
+                value: false
+            }
+        ]
+    },  
+    {
+        title: "Questão de Português",
+        text: "Na frase: Chegou Pedro, Maria e o seu filho dela, o pronome possessivo está reforçado para:",
+        alt: [
+            {
+                quote: "A",
+                text: "ênfase",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "elegância e estilo",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "figura de harmonia",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "clareza",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Qual o tipo de sujeito da oração A folha caiu no outono?",
+        alt: [
+            {
+                quote: "A",
+                text: "sujeito simples",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "sujeito composto",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "sujeito oculto",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "sujeito indeterminado",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "o núcleo do predicado da oração: Os alunos saíram do teatro encantados é:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "alunos",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
+                text: "saíram encantados",
                 value: true
             },
             {
                 quote: "C",
-                text: "",
+                text: "encantados",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "saíram",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Assinale o item que só contenha preposições:",
         alt: [
             {
                 quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
+                text: "durante, entre, sobre",
                 value: true
             },
             {
+                quote: "B",
+                text: "com, sob, depois",
+                value: false
+            },
+            {
                 quote: "C",
-                text: "",
+                text: "para, atrás, por",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "após, sobre, acima",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Em “Ela despedaçou o lacre e deu a ler a Seixas o papel”, a preposição assinalada introduz uma ideia de:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "consequência",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
+                text: "causa",
+                value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "condição",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "fim",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "A alternativa que completa a frase: Já ___ anos, ___ neste local árvores e flores. Hoje, só ___ ervas daninhas., é:",
+        alt: [
+            {
+                quote: "A",
+                text: "faz, havia, existem",
+                value: true
+            },
+            {
+                quote: "B",
+                text: " fazem, haviam, existem",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "fazem, havia, existe",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "faz, havia, existe",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "A palavra como  tem o valor  de conjunção subordinativa conformativa na opção:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "Indaguei-lhe como Rubião tinha assumido aquela postura de contemplação.",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
+                text: "Como não tivesse condições financeiras suficientes, Rubião viveu com parentes.",
+                value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "Como estava agravável a manhã, Rubião resolveu passear na enseada.",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "Como ele mesmo disse, mana Piedade não se casou.",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Os termos destacados estão corretamente classificados, exceto em:",
+        alt: [
+            {
+                quote: "A",
+                text: "Ficaram encantados com sua gentileza – objeto direto",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "Com as mãos no rosto, parecia petrificado – predicativo do sujeito ",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Quanto tempo perdido em brincadeira! - Adjunto adnominal",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "Procurava alívio para seus sofrimentos – complemento nominal",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Identifique a alternativa em que o verbo destacado não é de ligação:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "A criança estava com fome.",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
-                value: true
+                text: "Pedro parece adoentado.",
+                value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "Ele tem andado confuso.",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "Ficou em casa o dia todo.",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Português",
+        text: "Assinale o item em que a palavra destacada está incorretamente aplicada:",
+        alt: [
+            {
+                quote: "A",
+                text: "Trouxeram-me um ramalhete de flores fragrantes.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "A justiça infligiu a pena merecida aos desordeiros.",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "Promoveram uma festa beneficiente para a creche.",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "Devemos ser fiéis ao cumprimento do dever.",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "No período: “Fui à escola, busquei minha irmã e, em seguida, entreguei os livros à Maria.” os verbos em negrito são, respectivamente:",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "intransitivo; transitivo direto; transitivo direto e indireto.",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
+                text: "transitivo indireto; transitivo direto; transitivo direto e indireto.",
                 value: true
             },
             {
                 quote: "C",
-                text: "",
+                text: "transitivo direto; transitivo indireto; intransitivo.",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
+                text: "transitivo direto e indireto; intransitivo; transitivo direto.",
                 value: false
             }
         ]
     },
     {
         title: "Questão de Português",
-        text: "",
+        text: "Em todas as alternativas há dois advérbios, exceto em:",
         alt: [
             {
                 quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
+                text: "Ele permaneceu muito calado.",
                 value: true
             },
             {
+                quote: "B",
+                text: "Amanhã, não iremos ao cinema.",
+                value: false
+            },
+            {
                 quote: "C",
-                text: "",
+                text: "O menino, ontem, cantou desafinadamente.",
                 value: false
             },
             {
                 quote: "D",
-                text: "",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Português",
-        text: "",
-        alt: [
-            {
-                quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
-                value: true
-            },
-            {
-                quote: "C",
-                text: "",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Português",
-        text: "",
-        alt: [
-            {
-                quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
-                value: true
-            },
-            {
-                quote: "C",
-                text: "",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "",
-                value: false
-            }
-        ]
-    },
-    {
-        title: "Questão de Português",
-        text: "",
-        alt: [
-            {
-                quote: "A",
-                text: "",
-                value: false
-            },
-            {
-                quote: "B",
-                text: "",
-                value: true
-            },
-            {
-                quote: "C",
-                text: "",
-                value: false
-            },
-            {
-                quote: "D",
-                text: "",
+                text: "Tranquilamente, realizou-se, hoje, o jogo.",
                 value: false
             }
         ]
