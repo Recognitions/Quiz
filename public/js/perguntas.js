@@ -156,27 +156,521 @@ export const array = [
         ]
     },
     {
-        title: "",
-        text: "",
+        title: "Questão de Matemática",
+        text: "Dividiu-se 36 por um número inteiro, o resto da divisão é zero e o quociente é 4. Qual é o divisor?",
         alt: [
             {
                 quote: "A",
-                text: "",
+                text: "3",
                 value: false
             },
             {
                 quote: "B",
-                text: "",
+                text: "6",
                 value: false
             },
             {
                 quote: "C",
-                text: "",
+                text: "9",
                 value: true
             },
             {
                 quote: "D",
-                text: "",
+                text: "12",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "No número 6a78b, o algarismo a é da ordem das unidades de milhar e o algarismo b é da ordem das unidades. Se 6a78b for divisível por 45, então o valor de a + b é:",
+        alt: [
+            {
+                quote: "A",
+                text: "5",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "6",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "7",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "8",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Sabendo-se que a distância entre duas cidades num mapa, na escala 1: 1.600.000, é de 8 cm, qual é a distância real entre elas?",
+        alt: [
+            {
+                quote: "A",
+                text: "2 km",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "12,8 km",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "20 km",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "128 km",
+                value: true
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "A chuva, quando em excesso, traz vários problemas para a população. Em uma determinada cidade brasileira, houve a danificação da estrutura de uma ponte. Para arrumá-la, a prefeitura constatou que seriam necessários 12 funcionários para terminar a obra em 2 meses. Sabendo que era ano político e visando à reeleição, o prefeito decidiu que terminaria a obra em 15 dias. A quantidade de funcionários necessários para realizar a obra nesse período é de:",
+        alt: [
+            {
+                quote: "A",
+                text: "18",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "24",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "36",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "48",
+                value: true
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Desde 2005, o Banco Central não fabrica mais a nota de R$ 1,00 e, desde então, só produz dinheiro nesse valor em moedas. Apesar de ser mais caro produzir uma moeda, a durabilidade do metal é 30 vezes maior que a do papel. Fabricar uma moeda de R$ 1,00 custa R$ 0,26, enquanto uma nota custa R$ 0,17, entretanto, a cédula dura de oito a onze meses. Com R$ 1 000,00 destinados a fabricar moedas, o Banco Central conseguiria fabricar, aproximadamente, quantas cédulas a mais?",
+        alt: [
+            {
+                quote: "A",
+                text: "1 667 ",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "2 036",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "3 846",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "4 300",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Considere o conjunto A cujos 5 elementos são números inteiros, e o conjunto B formado por todos os possíveis produtos de três elementos de A. Se B = {-30, -20, -12, 0, 30}, qual o valor da soma de todos os elementos de A?",
+        alt: [
+            {
+                quote: "A",
+                text: "5",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "3",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "12",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "8",
+                value: true
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Para atender a alta demanda em smartphones, uma fábrica decidiu aumentar o número de produtos produzidos diariamente. Para isso, ela investiu em mais 3 máquinas, totalizando-se 8 máquinas. Sabendo-se que eram produzidos diariamente 750 smartphones, haverá um aumento na produção diária de:",
+        alt: [
+            {
+                quote: "A",
+                text: "1200",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "1000",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "210",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "450",
+                value: true
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Para encher um tanque de água do condomínio, 5 torneiras levam exatamente 9 horas. Supondo-se que a vazão das torneiras seja sempre a mesma, quanto tempo levaria o enchimento do tanque se fossem apenas 3 torneiras?",
+        alt: [
+            {
+                quote: "A",
+                text: "15 horas",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "13 horas",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "12 horas",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "10 horas",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Em uma população carcerária de 14 400 presos, há 1 mulher para cada 11 homens nessa situação. Do total das mulheres, 2/5 estão em regime provisório, correspondendo a",
+        alt: [
+            {
+                quote: "A",
+                text: "840 mulheres",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "480 mulheres.",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "1200 mulheres.",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "640 mulheres.",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Júlia acertou 75% das questões de Matemática do teste e Mariana acertou 4/5. Quem acertou mais questões?",
+        alt: [
+            {
+                quote: "A",
+                text: "Júlia",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "Mariana",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "As duas acertaram o mesmo número de questões.",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "Nenhuma das alternativas acima.",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Em um concurso, 520 candidatos se inscreveram. No dia da prova apenas 364 candidatos compareceram. Neste caso, qual foi a porcentagem dos candidatos que faltaram a prova?",
+        alt: [
+            {
+                quote: "A",
+                text: "10%",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "20%",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "30%",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "40%",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Um investidor aplicou certa quantia em um fundo de ações. Nesse fundo, 1/3 das ações eram da empresa A, 1/2 eram da empresa B e as restantes, da empresa C. Em um ano, o valor das ações da empresa A aumentou 20%, o das ações da empresa B diminuiu 30% e o das ações da empresa C aumentou 17%. Em relação à quantia total aplicada, ao final desse ano, este investidor obteve:",
+        alt: [
+            {
+                quote: "A",
+                text: "lucro de 10,3%.",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "lucro de 7,0%.",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "prejuízo de 5,5%.",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "prejuízo de 12,4%.",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Um supermercado adquiriu detergentes nos aromas limão e coco. A compra foi entregue, embalada em 10 caixas, com 24 frascos em cada caixa. Sabendo-se que cada caixa continha 2 frascos de detergentes a mais no aroma limão do que no aroma coco, o número de frascos entregues, no aroma limão, foi:",
+        alt: [
+            {
+                quote: "A",
+                text: "110",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "120",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "130",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "140",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: " Uma barraca de tiro ao alvo de um parque de diversões dará um prêmio de R$ 20,00 ao participante, cada vez que ele acertar o alvo. Por outro lado, cada vez que ele errar o alvo, deverá pagar R$ 10,00. Não há cobrança inicial para participar do jogo. Um participante deu 80 tiros, e, ao final, recebeu R$ 100,00. Qual foi o número de vezes que esse participante acertou o alvo?",
+        alt: [
+            {
+                quote: "A",
+                text: "30",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "36",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "50",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "60",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "O plano cartesiano é um sistema de coordenadas desenvolvido por René Descartes. Esse sistema de coordenadas é formado por duas retas perpendiculares, chamadas de eixos cartesianos. O plano cartesiano é dividido em quadrantes. Sobre os quadrantes do plano cartesiano, considerando um ponto A (x, y), em que x > 0 e y < 0, temos um ponto que pertence ao:",
+        alt: [
+            {
+                quote: "A",
+                text: "primeiro quadrante",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "segundo quadrante",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "terceiro quadrante",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "quarto quadrante",
+                value: true
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Uma das diagonais de um quadrado tem extremidades A (1; 1) e C (3; 3). As coordenadas dos outros dois vértices são:",
+        alt: [
+            {
+                quote: "A",
+                text: "(2; 3) e (3; 2)",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "(3; 1) e (1; 3)",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "(3; 0) e (1; 4)",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "(5; 2) e (4; 1)",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Uma prestadora de serviços cobra pela visita à residência do cliente e pelo tempo necessário para realizar o serviço na residência. O valor da visita é R$ 40 e o valor da hora para realização do serviço é R$ 20. Uma expressão que indica o valor a ser pago (P) em função das horas (h) necessárias à execução do serviço é:",
+        alt: [
+            {
+                quote: "A",
+                text: "P = 40h",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "P = 60h",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "P = 20 + 40h",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "P = 40 + 20h",
+                value: true
+            }
+        ]
+    },
+    {
+        title: "Questão de Matemática",
+        text: "Márcia decidiu pintar uma das paredes de seu quarto com uma cor diferente. Para isso, ela escolheu uma lata de tinta rosa, cujo rótulo diz que o rendimento do conteúdo é 20 m2. Se a parede que Márcia pretende pintar é retangular, com as medidas de 4 m de comprimento e 3m de altura, quantas latas de tinta Márcia precisará comprar?",
+        alt: [
+            {
+                quote: "A",
+                text: "uma lata",
+                value: true
+            },
+            {
+                quote: "B",
+                text: "duas latas",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "três latas",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "quatro latas",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Um empresário possui um espaço retangular de 110 m por 90 m para eventos. Considerando que cada metro quadrado é ocupado por 4 pessoas, a capacidade máxima de pessoas que esse espaço pode ter é:",
+        alt: [
+            {
+                quote: "A",
+                text: "32.400",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "34.500",
+                value: false
+            },
+            {
+                quote: "C",
+                text: "39.600",
+                value: true
+            },
+            {
+                quote: "D",
+                text: "42.500",
+                value: false
+            }
+        ]
+    }, 
+    {
+        title: "Questão de Matemática",
+        text: "Os pontos (2,3), (5,3) e (2,7) são vértices de um triângulo retângulo. A área desse triângulo é:",
+        alt: [
+            {
+                quote: "A",
+                text: "5 u.a",
+                value: false
+            },
+            {
+                quote: "B",
+                text: "6 u.a",
+                value: true
+            },
+            {
+                quote: "C",
+                text: "7 u.a",
+                value: false
+            },
+            {
+                quote: "D",
+                text: "8 u.a",
                 value: false
             }
         ]
