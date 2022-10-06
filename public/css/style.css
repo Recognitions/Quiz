@@ -35,7 +35,8 @@ main{
     --backbutton: #00988d;
     --shadowbutton: #005b53;
     --background: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
-    --rankbackground: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
+    --pbackground: radial-gradient(circle, rgb(33, 108, 158) 0%, rgb(5, 49, 85) 90%) rgb(33, 112, 158);
+    --gradientfont: linear-gradient(to bottom, rgb(235, 235, 235) 50%, rgb(139, 139, 139));
     --background-initial: #37ba0b;
     --text-button: #f23e02;
     --white: #fff;
@@ -295,8 +296,12 @@ footer {
     color: rgb(229, 229, 229);
 }
 #ranking h1{
-    margin: 25px;
-    text-shadow: 1px 1px 1px black;
+    background-image: var(--gradientfont);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    margin: 30px;
     font-size: 40px;
 }
 #ranking h1 b{
