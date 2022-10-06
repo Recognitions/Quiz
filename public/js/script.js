@@ -2,7 +2,7 @@ import { array } from './perguntas.js'
 import { modal } from './modal.js'
 import { filter } from './filter.js'
 
-const locked = false
+const locked = true
 
 if(locked==true){
     window.location.href="./soon.html"
