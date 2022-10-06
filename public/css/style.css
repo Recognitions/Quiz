@@ -35,12 +35,10 @@ main{
     --backbutton: #00988d;
     --shadowbutton: #005b53;
     --background: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
-    --pbackground: radial-gradient(circle, rgb(33, 108, 158) 0%, rgb(5, 49, 85) 90%) rgb(33, 112, 158);
-    --gradientfont: linear-gradient(to bottom, rgb(235, 235, 235) 50%, rgb(139, 139, 139));
+    --rankbackground: radial-gradient(circle, rgb(104, 33, 158) 0%, rgb(34, 9, 79) 54%) rgb(104, 33, 158);
     --background-initial: #37ba0b;
     --text-button: #f23e02;
     --white: #fff;
-    
 }
 
 #inputs{
@@ -108,7 +106,7 @@ footer {
     position: absolute;
     width: 70%;
     height: 400px;
-    background: var(--pbackground);
+    background: radial-gradient(#007792,#005061);
     border: 3px #a099ff solid;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -118,7 +116,7 @@ footer {
 
 #name {
     position: relative;
-    bottom: 150px;
+    bottom: 120px;
     
     margin-left: 5px;
     width: 200px;
@@ -235,10 +233,10 @@ footer {
 }
 
 #image {
-    width: 260px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     position: relative;
-    bottom: 150px;
+    bottom: 130px;
 
 }
 
@@ -268,7 +266,7 @@ footer {
 }
 #enter {
     position: relative;
-    bottom: 160px;
+    bottom: 130px;
     width: 200px;
     display: inline-block;
     margin: 1.5em;
@@ -293,45 +291,20 @@ footer {
 }
 
 #ranking{
-    color: white
+    background: var(--rankbackground);
+    color: rgb(229, 229, 229);
 }
 #ranking h1{
-    background-image: var(--gradientfont);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Fredoka One', cursive;
-    margin: 30px;
+    margin: 25px;
+    text-shadow: 1px 1px 1px black;
     font-size: 40px;
 }
-#crown{
+#ranking h1 b{
     position: absolute;
-    top: 10px;
-    margin-left: 145px;
+    margin-left: -26px;
+    margin-top: -25px;
     transform: rotateZ(30deg);
-    font-size: 40px;
-    text-shadow: 1px -2px 1px rgba(0, 0, 0, 0.2);
-}
-#winner{
-    position: absolute;
-    left: 240px;
-    bottom: 255px;
-    font-size: 25px;
-    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
-}
-#second{
-    position: absolute;
-    left: 240px;
-    bottom: 215px;
-    font-size: 25px;
-    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
-}
-#third{
-    position: absolute;
-    left: 240px;
-    bottom: 175px;
-    font-size: 25px;
-    text-shadow: 2px 1px 3px rgb(0, 0, 0, 0.3);
+    text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
 }
 #showPlayers{
     width: 100%;
@@ -350,7 +323,7 @@ footer {
     font-size: 18px;
     text-transform: uppercase;
     transition: 0.2s;
-    margin: 10px;
+    margin: 5px;
 }
 
 .topPlayer:hover{
@@ -362,6 +335,27 @@ footer {
     color: gold;
     margin: 5px;
     text-shadow: 0px 0px 2px goldenrod;
+}
+.topPlayer:nth-child(1)::before{
+    content: '🥇';
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    font-size: 25px;
+}
+.topPlayer:nth-child(2)::before{
+    content: '🥈';
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    font-size: 25px;
+}
+.topPlayer:nth-child(3)::before{
+    content: '🥉';
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    font-size: 25px;
 }
 
 .register{
@@ -377,11 +371,7 @@ footer {
     border-radius: 10px;
     border: 3px solid rgb(159, 9, 159);
     border-bottom-color: rgb(73, 0, 73);
-<<<<<<< HEAD
-    font-size: 40px;
-=======
     font-size: 30px;
->>>>>>> 2810e0ed9b2c8821ea416d8f62715eb31cc981c1
     box-shadow: inset 0px 0px 20px 1px rgba(255,255,255,0.3);
 }
 
