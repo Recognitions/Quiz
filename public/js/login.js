@@ -34,7 +34,7 @@ function render(){
 
 
 function login(){
-    const password = "admin"
+    const password = "698dc19d489c4e4db73e28a713eab07b" //Está escriptada!
     if(md5(prompt("Password"))==password){
         render()
     }else{
