@@ -38,8 +38,8 @@ main{
     --pbackground: radial-gradient(circle, rgb(33, 108, 158) 0%, rgb(5, 49, 85) 90%) rgb(33, 112, 158);
     --gradientfont: linear-gradient(to bottom, rgb(235, 235, 235) 50%, rgb(139, 139, 139));
     --background-initial: #37ba0b;
-    --text-button: #f23e02;
-    --white: #fff;
+    --text-button: #3c0c5c;
+    --white: #fff; 
 }
 
 #inputs{
@@ -107,7 +107,7 @@ footer {
     position: absolute;
     width: 70%;
     height: 400px;
-    background: radial-gradient(#007792,#005061);
+    background: var(--pbackground);
     border: 3px #a099ff solid;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -304,10 +304,11 @@ footer {
     margin: 30px;
     font-size: 40px;
 }
-#ranking h1 b{
-    position: absolute;
-    margin-left: -26px;
-    margin-top: -25px;
+#crown{
+    position: relative;
+    left: 160px;
+    bottom: 105px;
+    font-size: 30px;
     transform: rotateZ(30deg);
     text-shadow: 1px -2px 1px rgba(255,255,255,0.2);
 }

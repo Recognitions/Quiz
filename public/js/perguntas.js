@@ -859,7 +859,7 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "Na frase: O carro é de Salvador, é apresentado uma preposição de: ",
+        text: "Na frase: “O carro é de Salvador“, é apresentado uma preposição de: ",
         alt: [
             {
                 quote: "A",
@@ -911,7 +911,7 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "Na palavra Pneumoultramicroscopicossilicovulcanoconiótico, o item correspondente as vogais é:",
+        text: "Na palavra “Pneumoultramicroscopicossilicovulcanoconiótico“, o item correspondente as vogais é:",
         alt: [
             {
                 quote: "A",
@@ -937,7 +937,7 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "O item que melhor se encaixa na frase: O médico ficou ____ satisfeito após a cirurgia, ____ ele não deu o resultado à família",
+        text: "O item que melhor se encaixa na frase: “O médico ficou ____ satisfeito após a cirurgia, ____ ele não deu o resultado à família“",
         alt: [
             {
                 quote: "A",
@@ -989,7 +989,7 @@ export const array = [
     },  
     {
         title: "Questão de Português",
-        text: "Na frase: Chegou Pedro, Maria e o seu filho dela, o pronome possessivo está reforçado para:",
+        text: "Na frase: “Chegou Pedro, Maria e o seu filho“, o pronome possessivo está reforçado para:",
         alt: [
             {
                 quote: "A",
@@ -1015,7 +1015,7 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "Qual o tipo de sujeito da oração A folha caiu no outono?",
+        text: "Qual o tipo de sujeito da oração: “A folha caiu no outono“?",
         alt: [
             {
                 quote: "A",
@@ -1041,7 +1041,7 @@ export const array = [
     },
     {
         title: "Questão de Português",
-        text: "o núcleo do predicado da oração: Os alunos saíram do teatro encantados é:",
+        text: "o núcleo do predicado da oração: “Os alunos saíram do teatro encantados“ é:",
         alt: [
             {
                 quote: "A",

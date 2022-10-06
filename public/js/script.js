@@ -2,7 +2,7 @@ import { array } from './perguntas.js'
 import { modal } from './modal.js'
 import { filter } from './filter.js'
 
-const locked = false
+const locked = true
 
 if(locked==true){
     window.location.href="./soon.html"
@@ -41,7 +41,7 @@ function ranking(){
     const showPlayers = document.getElementById("showPlayers")
     showPlayers.innerHTML=""
     const players = JSON.parse(localStorage.getItem("players"))
-    let rankingArray = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,5) : []
+    let rankingArray = players ? (players.sort((a,b)=>{return b.points - a.points})).slice(0,10) : []
     rankingArray.forEach((elem)=>{
         const div = document.createElement("div")
         div.classList.add("topPlayer")
