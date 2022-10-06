@@ -13,23 +13,17 @@
     </div>
     <script>
         function setTimer(){
-            const dataAtual = new Date()
-            const day = dataAtual.getDate()
-            const hour = dataAtual.getHours()
-            const minutes = dataAtual.getMinutes()
-
-            const tDay = 7
-            const tHour = 13
-            const tMinutes = 30
-
-            const mDay = tDay-day
-            const mHour = tHour-hour
+            const now = new Date()
+            const past = new Date('2022-10-06 13:30')
+            const diff = Math.abs(now.getTime() - past.getTime())
+            const days = Math.ceil(diff / (1000 * 60 * 60 * 24))
+            const hours = Math.ceil(diff / (1000 * 60 * 60))
 
             let phrase
-            if(mDay==1){
-                phrase = `Falta ${mDay} dia e ${mHour} hora(s) !`
+            if(days==1){
+                phrase = `Falta ${days} dia e ${hours} hora(s) !`
             }else{
-                phrase = `Falta ${mHour} hora(s) !`
+                phrase = `Falta ${hours} hora(s) !`
             }
 
             const contador = document.getElementById("contador")
